@@ -1,0 +1,27 @@
+import React, {useState, useEffect} from 'react';
+import './Clients.scss';
+import {pastProjectsClients} from './../../../api/projects';
+
+export default function Clients (){
+    const clientsLogos = pastProjectsClients.map(project=>{
+        const{clientsLogo} = project.imgs;
+        const{title} = project.role;
+        const {name} = project.projectName;
+        const cls = name.split(' ').join('');
+        const logo = require('./../../../media/logos/'+clientsLogo);
+        return(
+            <div className={"Clients__logo logo_"+cls}  key = {"logos_"+name}>
+                <img src={logo} alt={"logo" + name}/>
+                {/* <p>[ {title} ]</p> */}
+            </div>
+        )
+    })
+    return(
+        <div className="Clients">
+            <div>
+                {clientsLogos}
+            </div>
+        </div>
+    )
+
+}

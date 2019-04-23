@@ -1,0 +1,53 @@
+@import './../../App.scss';  //import vars and mixins
+
+.Nav{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 5rem 15rem 0;
+    top: 0;
+    z-index: 9;
+}
+.Nav__brand{
+    font-size: 1.1rem;
+    h1{
+    }
+    img{
+        width: 3rem;
+        margin-right: 1rem;
+        top: .8rem;
+    }
+}
+.Nav__media{
+    padding-top: 12rem;
+
+    a{
+        padding: 0 .6rem;
+    }
+    img{
+        height: 1.4rem;
+    }
+}
+
+.Nav__pages{
+
+    a{
+        display:block;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        margin: 2rem;
+
+    }
+    a.selected{
+        // text-decoration: line-through;
+        // display: none;
+        // opacity: .4;
+        // background-image: linear-gradient(to right,$color_blue, transparent);
+    }
+
+}
+
+
+@include desktop-sm{
+
+}
