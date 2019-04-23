@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "84fe39b5cbcdca2514421fe9321687cb",
-    "url": "/murray_grant/static/media/fairmontHotels.84fe39b5.png"
+    "revision": "e142b51a99a27f0508dd0d0b0649b0cc",
+    "url": "/murray_grant/static/media/earnstAndYoung.e142b51a.png"
   },
   {
-    "revision": "088030d8b104575ffb54",
-    "url": "/murray_grant/static/css/main.526bcfc5.chunk.css"
+    "revision": "64694a4cfeb7043d1a9d",
+    "url": "/murray_grant/static/css/main.7172f146.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -28,12 +28,20 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/MGAfundation.b2f51b36.png"
   },
   {
+    "revision": "6d7b39432d4cde13a9e4639ad5951de8",
+    "url": "/murray_grant/static/media/assemblyRooms.6d7b3943.jpg"
+  },
+  {
     "revision": "be14cc7290316e726ca1ff3a5caaa18c",
     "url": "/murray_grant/static/media/bbe.be14cc72.png"
   },
   {
     "revision": "9ced1bfdb9afec3e91b3a8481acb9b4f",
     "url": "/murray_grant/static/media/bbp.9ced1bfd.png"
+  },
+  {
+    "revision": "41e0dc75abcc050f8674858919a7e491",
+    "url": "/murray_grant/static/media/bp.41e0dc75.png"
   },
   {
     "revision": "87e94fa42ea918ca440483d0ba46f979",
@@ -56,12 +64,20 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/ds_white.3c11f9ac.png"
   },
   {
-    "revision": "088030d8b104575ffb54",
-    "url": "/murray_grant/static/js/main.633a4740.chunk.js"
+    "revision": "64694a4cfeb7043d1a9d",
+    "url": "/murray_grant/static/js/main.dc8806a4.chunk.js"
+  },
+  {
+    "revision": "84fe39b5cbcdca2514421fe9321687cb",
+    "url": "/murray_grant/static/media/fairmontHotels.84fe39b5.png"
   },
   {
     "revision": "7b332987a623a7726b9d6133b5bcdfdb",
     "url": "/murray_grant/static/media/fts_white.7b332987.png"
+  },
+  {
+    "revision": "54c537cadfcb7a9f1aa231a3ba54f1b4",
+    "url": "/murray_grant/static/media/gleneagelsHotel.54c537ca.png"
   },
   {
     "revision": "cc4b8c8d400c8e79f889c6b2585542e3",
@@ -112,7 +128,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/msn.f9979fb9.JPG"
   },
   {
-    "revision": "1bf4308a96563b29eae2d6593c9a77ca",
+    "revision": "324c5a88f57bfbbbd679160c15a5bd5a",
     "url": "/murray_grant/index.html"
   }
 ];
