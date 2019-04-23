@@ -28,7 +28,7 @@
     }
 }
 .Home__hidden{
-    // display: none;
+    display: none;
     top: 10rem ;
     opacity: 0;
     @include anim(showHomeHiddenEl, .5s, 0s, ease-in)

@@ -566,6 +566,120 @@ const falkirkHerald = {
     desc:'',
     links:null,
 }
+const nationalMuseumScotland = {
+    cls:'nationalMuseumScotland',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Nationa lMuseum Scotland',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'nationalMuseumScotland.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const assemblyRooms = {
+    cls:'assemblyRooms',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Assembly Rooms',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'assemblyRooms.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const gleneagelsHotel = {
+    cls:'gleneagelsHotel',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Gleneagels Hotel',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'gleneagelsHotel.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const edinburghZoo = {
+    cls:'edinburghZoo',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Edinburgh Zoo',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'edinburghZoo.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const bp= {
+    cls:'bp',
+    current:false,
+    projectName:{
+        display:false,
+        name:'BP',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'bp.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const earnstAndYoung= {
+    cls:'bp',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Earnst & Young',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'earnstAndYoung.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
 
 
 const projects=[
@@ -591,12 +705,18 @@ const projects=[
     brodies,
     iba,
     balmoral,
+    nationalMuseumScotland,
     irnBru,
     rossFountain,
     sheraton,
     unionSquare,
     conifox,
     falkirkHerald,
+    assemblyRooms,
+    gleneagelsHotel,
+    edinburghZoo,
+    bp,
+    earnstAndYoung,
 ]
 const currentProjects = projects.filter(project=>project.current)
 const pastProjectsSlides = projects.filter(project=>!project.current&&project.imgs.bg)
