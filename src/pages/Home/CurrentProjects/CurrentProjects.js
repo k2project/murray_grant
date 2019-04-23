@@ -89,13 +89,16 @@ function slideProjectDetailsList(index){
     console.log(projectIndex)
     if(index<0){
         projectIndex = currentProjects.length-1;
-        // projectDetailsUl.style.transition = '0s';
     }
     if(index>currentProjects.length-1){
         projectIndex = 0;
     }
     console.log(projectIndex)
     projectDetailsUl.style.left = -1 * projectBoxW * projectIndex + 'px';
+
+    const page  = projectIndex + 1;
+    document.querySelector('.projectDetails__pagination').textContent = page +' / '+currentProjects.length
+
 }
 
 function ProjectsDetails(){
@@ -108,6 +111,7 @@ function ProjectsDetails(){
                 <div className="projectsDetails__nav_rgt" onClick={()=>slideProjectDetailsList(++projectIndex)}>&#10148;</div>
                 <div className="projectsDetails__nav_close" onClick={closeProjectDetails}>&#10006;</div>
             </div>
+            <div className="projectDetails__pagination"></div>
         </div>
     )
 }

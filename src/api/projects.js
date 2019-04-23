@@ -424,7 +424,140 @@ const zealExperiential = {
     imgs:{
         bg:null,
         logo:null,
-        clientsLogo:'zealExperiential.png',
+        clientsLogo:'zeal.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const balmoral= {
+    cls:'balmoral',
+    current:false,
+    projectName:{
+        display:false,
+        name:'The Balmoral Edinburgh',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'balmoral.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const maximillion= {
+    cls:'maximillion',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Maximillion',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'maximillion.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const unionSquare= {
+    cls:'unionSquare',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Union Square',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'unionSquare.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const fairmontHotels= {
+    cls:'fairmontHotels',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Fairmont Hotels',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'fairmontHotels.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const brodies = {
+    cls:'brodies',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Brodies LLP',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'brodies.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const conifox = {
+    cls:'conifox',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Conifox',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'conifox.jpg',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const falkirkHerald = {
+    cls:'falkirkHerald',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Falkirk Herald Business Awards 2018',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'falkirkHerald.png',
     },
     role:{
         title: null,
@@ -450,13 +583,20 @@ const projects=[
     theBourbonStreetBoys,
     guysSingDolls,
     bestOfMusicalStarNights,
+    maximillion,
     sykes,
+    zealExperiential,
+    fairmontHotels,
+    prudential,
+    brodies,
     iba,
+    balmoral,
     irnBru,
     rossFountain,
     sheraton,
-    prudential,
-    // zealExperiential,
+    unionSquare,
+    conifox,
+    falkirkHerald,
 ]
 const currentProjects = projects.filter(project=>project.current)
 const pastProjectsSlides = projects.filter(project=>!project.current&&project.imgs.bg)
