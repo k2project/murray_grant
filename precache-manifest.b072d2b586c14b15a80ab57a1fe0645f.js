@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7b332987a623a7726b9d6133b5bcdfdb",
-    "url": "/murray_grant/static/media/fts_white.7b332987.png"
+    "revision": "84fe39b5cbcdca2514421fe9321687cb",
+    "url": "/murray_grant/static/media/fairmontHotels.84fe39b5.png"
   },
   {
-    "revision": "587ae1bd64dbbb9cd078",
-    "url": "/murray_grant/static/css/main.c8c3a7c6.chunk.css"
+    "revision": "088030d8b104575ffb54",
+    "url": "/murray_grant/static/css/main.526bcfc5.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -36,12 +36,40 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/bbp.9ced1bfd.png"
   },
   {
+    "revision": "87e94fa42ea918ca440483d0ba46f979",
+    "url": "/murray_grant/static/media/brodies.87e94fa4.jpg"
+  },
+  {
+    "revision": "9f4ca9ad64828e2120dc8f4bf4faff43",
+    "url": "/murray_grant/static/media/brodies.9f4ca9ad.png"
+  },
+  {
+    "revision": "38bd5ef00e050b4272fec9256c40d2a6",
+    "url": "/murray_grant/static/media/conifox.38bd5ef0.jpg"
+  },
+  {
+    "revision": "8d11acd1cbe842f0a88bc08cded50b35",
+    "url": "/murray_grant/static/media/conifox.8d11acd1.png"
+  },
+  {
     "revision": "3c11f9ac4c8acf8c829b8273ecf03ab8",
     "url": "/murray_grant/static/media/ds_white.3c11f9ac.png"
   },
   {
-    "revision": "587ae1bd64dbbb9cd078",
-    "url": "/murray_grant/static/js/main.f80b8233.chunk.js"
+    "revision": "088030d8b104575ffb54",
+    "url": "/murray_grant/static/js/main.633a4740.chunk.js"
+  },
+  {
+    "revision": "7b332987a623a7726b9d6133b5bcdfdb",
+    "url": "/murray_grant/static/media/fts_white.7b332987.png"
+  },
+  {
+    "revision": "cc4b8c8d400c8e79f889c6b2585542e3",
+    "url": "/murray_grant/static/media/maximillion.cc4b8c8d.jpg"
+  },
+  {
+    "revision": "4e0235c6f4b5f7127fe9f3fd6505bc94",
+    "url": "/murray_grant/static/media/maximillion.4e0235c6.png"
   },
   {
     "revision": "300e85fe03ea3338f838b698d4ee9b9a",
@@ -64,6 +92,10 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/ted.10e2eb91.svg"
   },
   {
+    "revision": "d6057878cf2685981d6438bca73cf562",
+    "url": "/murray_grant/static/media/unionSqr.d6057878.png"
+  },
+  {
     "revision": "78421432f5c49925aa33effc40a117b2",
     "url": "/murray_grant/static/media/bsb.78421432.jpg"
   },
@@ -80,7 +112,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/msn.f9979fb9.JPG"
   },
   {
-    "revision": "bb498cca403462c7e1e6ab7aace8709e",
+    "revision": "1bf4308a96563b29eae2d6593c9a77ca",
     "url": "/murray_grant/index.html"
   }
 ];
