@@ -51,16 +51,16 @@ export default function Home (){
         <div className="Home">
             <div className="Home__nav">
                 <div className="Home__nav_media">
-                    <a href="#" target="_blank"  rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/murray-grant-3066b34a/" target="_blank"  rel="noopener noreferrer">
                         <img src={linkedin} alt="Linked In"/>
                     </a>
-                    <a href="#" target="_blank"  rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/murray.grantmga" target="_blank"  rel="noopener noreferrer">
                         <img src={facebook} alt="Facebook"/>
                     </a>
-                    <a href="#" target="_blank"  rel="noopener noreferrer">
+                    <a href="https://www.twitter.com/murraygrant85" target="_blank"  rel="noopener noreferrer">
                         <img src={twitter} alt="Twitter"/>
                     </a>
-                    <a href="#" target="_blank"  rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/murraygrant/" target="_blank"  rel="noopener noreferrer">
                         <img src={instagram} alt="Instagram"/>
                     </a>
                 </div>

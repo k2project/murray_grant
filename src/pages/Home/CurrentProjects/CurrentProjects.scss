@@ -60,8 +60,8 @@
 }
 .project__role.cover{
     padding:3rem;
-    font-size: 2rem;
-    line-height: 1.1;
+    font-size: 1.8rem;
+    line-height: 1.2;
     text-align: center;
     background: rgba($color_black_2,1);
     color: $color_theme;
@@ -199,10 +199,22 @@ a.details__btn{
 }
 .projectsDetails__nav_lft{
     transform: rotate(-180deg);
-    padding-bottom: .25rem;
+    padding-bottom: .7rem;
 }
 .projectDetails__pagination{
     position: absolute;
     bottom: 5rem;
     width: 100%;
+}
+
+.projectsDetails__li.ted{
+    .details__name{
+        text-transform: lowercase;
+    }
+}
+.projectsDetails__li.masterclasses,
+.projectsDetails__li.choreographyProjects{
+    .projectDetails_lft{
+        // left: 20rem;
+    }
 }

@@ -112,9 +112,9 @@ const edinburghReporterOnTheCoreLaunch = {
 
 let articles = [
     scotsmanOnMGAAcademy,
-    stagenOnMGAFundation,
+    edinburghReporterOnTheCoreLaunch,
     dublinLiveOnMurrayChoreographer,
-    edinburghReporterOnTheCoreLaunch
+    stagenOnMGAFundation,
 ];
 articles = articles.filter(article => article.display);
 export {articles};

@@ -12,7 +12,7 @@
 article{
     background: #fff;
     color: #111;
-    min-height: 50rem;
+    min-height: 55rem;
     margin-bottom: 6rem;
     font-size: 1.4rem;
 }
@@ -26,14 +26,14 @@ article{
     background-size: cover;
     background-position: center;
     font-size: 1.2rem;
-    height: 50rem;
+    height: 55rem;
 
 }
 .article__heading{
-    height: 50rem;
+    height: 55rem;
     display: inline-grid;
     align-content: center;
-    padding: 5rem;
+    padding: 5rem 8rem;
     left: 50%;
 
 }
@@ -87,6 +87,7 @@ article.open{
     font-size: 2.8rem;
 }
 .article__subtitle{
+    font-size: 1.8rem;
 }
 .article__arr{
     font-size: 3rem;

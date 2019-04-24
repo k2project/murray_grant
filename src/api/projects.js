@@ -12,7 +12,7 @@ const beyondBroadwayProduction = {
         logo:'bbp.png',
     },
     role:{
-        title:'Founder & Creative Director ',
+        title:'Founder & Director ',
         subtitle:null,
     },
     desc:'From high-profile solo artists and groups to ensemble dance numbers with more than 150 performers, Beyond Broadway Productions can deliver bespoke corporate and private entertainment that will leave you speechless. Alongside this Beyond Broadway Production often produces concerts, productions and masterclasses in and around Scotland.',
@@ -35,10 +35,10 @@ const choreographyProjects = {
         logo:null,
     },
     role:{
-        title:'Acclaimed Choreographer',
+        title:'International Freelance Choreographer',
         subtitle:null,
     },
-    desc:'',
+    desc:'Murray is a freelance chorepgrapher and has been choreographing for the last 10 years choreographing shows such as Musical Starnights, 12 Tenors, Carnaby Street Capers, The Addams Family, Legally Blonde and more while working for companies such as P&O Cruises, The Entertainment Department, Maxilillion Events, Institute of the Arts – Barcelona, Ernst & Young, BP, Edinburgh Zoo and many more. ',
     links:null,
     subpageURL:'/choregraphy',
 }
@@ -47,7 +47,7 @@ const danceStar = {
     current:true,
     projectName: {
         display:false,
-        name:'Dance Star',
+        name:'DanceStar',
     },
     imgs:{
         bg:null,
@@ -65,19 +65,19 @@ const danceStar = {
         website:'https://dancestar.org/',
     }
 }
-const fierceTheatreSchool = {
-    cls:'fierceTheatreSchool',
+const fierceTheatreSchools = {
+    cls:'fierceTheatreSchools',
     current:true,
     projectName:  {
         display:false,
-        name:'Fierce Theatre School',
+        name:'Fierce Theatre Schools',
     },
     imgs:{
         bg:null,
         logo:'fts_white.png',
     },
     role:{
-        title:'Founder & Creative Director ',
+        title:'Co-founder & Director ',
         subtitle:null,
     },
     desc:'Fierce Theatre Schools combine a fun and friendly learning environment with a serious industry-focused core of committed training. Fierce is designed to equip young people with the skills and support they need to fulfil their potential as professional performers. ',
@@ -100,7 +100,7 @@ const mgaAcademy = {
         logo:'mgaAcademy.png',
     },
     role:{
-        title:'Founder & Creative Director ',
+        title:'Co-founder & Creative Director ',
         subtitle:null,
     },
     desc:'The MGA Academy of Performing Arts is the only college in Scotland to be accredited by the Council for Dance and Drama Education and Training (CDET), and offers BA (Hons) Degree Courses in Musical Theatre, Acting and Dance validated by Bath Spa University and is also an SQA Approved Centre offering HNC and HND qualifications and Approved Centre by the ISTD. ',
@@ -146,7 +146,7 @@ const mgaManagement = {
         logo:'mgam_white.png',
     },
     role:{
-        title:'Founder & Creative Director ',
+        title:'Co-founder & Creative Director ',
         subtitle:null,
     },
     desc:'MGA Management is a Theatre, TV and Film Agency representing professional performers from across the UK and beyond from offices in London and Edinburgh. Established in 2005 we have been representing professional Actors, Dancers and Musical Theatre performers for over thirteen years in Scotland, complemented by our base in Covent Garden that opening in December 2015.',
@@ -169,10 +169,10 @@ const masterclasses = {
         logo:null,
     },
     role:{
-        title:'Passionate Tutor',
+        title:'Jazz, Musical Theatre & Audition Technique Masterclass Provider',
         subtitle:null,
     },
-    desc:'',
+    desc:'Murray has over the last 15 years ran masterclasses in Jazz, Musical Theatre dance and audition technique across the world from Sweden to Cyprus, New York to Vienna. Working with students who are 14+ that have a passion and drive to go into the industry.',
     links:null,
     subpageURL:'/masterclasses',
 }
@@ -188,7 +188,7 @@ const ted = {
         logo:'ted.svg',
     },
     role:{
-        title:'To Be Confirmed',
+        title:'Freelance Creative',
         subtitle:null,
     },
     desc:'The Entertainment Department (ted) are creators and global implementers of original live production shows, dynamic audio and visual installations, leading sports and wellbeing programmes and custom-made merchandise retail product ranges. ',
@@ -211,10 +211,10 @@ const theBeyondBroadwayExperience = {
         logo:'bbe.png',
     },
     role:{
-        title:'Founder & Creative Director ',
+        title:'Co-founder & Creative Director ',
         subtitle:null,
     },
-    desc:'The Beyond Broadway Experience gives you the unique opportunity to work with the team at Beyond Broadway Productions and professional directors, choreographers, musical directors, theatre designers and performers to put on a huge show in the beautiful King’s Theatre, Edinburgh. Working intensively in rehearsals for the two weeks running up to opening night, cast are put through their paces by our professional creative and productions teams. You get to work with some of the best in the industry – and have a lot of fun along the way!',
+    desc:'The Beyond Broadway Experience gives young performers the unique opportunity to work with the team at Beyond Broadway Productions, professional directors, choreographers, musical directors, theatre designers and performers to put on a huge show at a variety of professional venues in Edinburgh. Working intensively in rehearsals for the two weeks running up to opening night, cast are put through their paces by our professional creative and productions teams. You get to work with some of the best in the industry – and have a lot of fun along the way!',
     links:{
         facebook:'https://www.facebook.com/thebbexperience/',
         instagram:'https://www.instagram.com/thebbexp/',
@@ -234,11 +234,11 @@ const theCore= {
         logo:'theCore.png',
     },
     role:{
-        title:'Founder & Vice Chair',
+        title:'Co-founder & Vice Chair',
         subtitle:null,
     },
 
-    desc:'The Core is a charity shop with a difference and will offer guest the opportunity to shop for all things theatrical, buy theatre tickets at discounted rates, provide information on local performing arts events and offer guidance on opportunities to practise and train in the performing arts across the city. It will also host signings and talks be Theatre stars, including performers from the West End and Broadway! All proceeds will go to The MGA Foundation.',
+    desc:'The Core is a charity shop with a difference and offers guests the opportunity to shop for all things theatrical, buy theatre tickets at discounted rates. We can provide information on local performing arts events and offer guidance on opportunities to practise and train in the performing arts across the city. It will also host signings and talks by theatre stars, including performers from the West End and Broadway! All proceeds will go to The MGA Foundation.',
     links:{
         facebook:'https://www.facebook.com/TheCoreScotland/',
         instagram:'https://www.instagram.com/thecorescotland/',
@@ -259,6 +259,24 @@ const theBourbonStreetBoys= {
     },
     role:{
         title:'Producer & Choreographer',
+        subtitle:null,
+    },
+    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.  ',
+    links:null,
+}
+const saturdayNightFever= {
+    cls:'saturdayNightFever',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Saturday Night Fever',
+    },
+    imgs:{
+        bg:'saturdayNightFever.jpg',
+        logo:null,
+    },
+    role:{
+        title:'Ensemble/Dance Captain ',
         subtitle:null,
     },
     desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.  ',
@@ -692,11 +710,12 @@ const projects=[
     danceStar,
     mgaFoundation,
     choreographyProjects,
-    fierceTheatreSchool,
+    fierceTheatreSchools,
     masterclasses,
     theBourbonStreetBoys,
     guysSingDolls,
     bestOfMusicalStarNights,
+    saturdayNightFever,
     iba,
     unionSquare,
     nationalMuseumScotland,
