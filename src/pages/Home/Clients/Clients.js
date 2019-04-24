@@ -18,7 +18,7 @@ export default function Clients (){
     })
     return(
         <div className="Clients">
-            <div>
+            <div className="wrapper">
                 {clientsLogos}
             </div>
         </div>
