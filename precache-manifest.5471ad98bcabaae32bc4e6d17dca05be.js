@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "317a3f7d0cfb2328eafdb3b41dc045f6",
-    "url": "/murray_grant/static/media/gleneagelsHotel.317a3f7d.png"
+    "revision": "4e0235c6f4b5f7127fe9f3fd6505bc94",
+    "url": "/murray_grant/static/media/maximillion.4e0235c6.png"
   },
   {
-    "revision": "650f150ba357a3ca37a4",
-    "url": "/murray_grant/static/css/main.3f1b0209.chunk.css"
+    "revision": "98a527a3e61c63c3675c",
+    "url": "/murray_grant/static/css/main.fd4f635f.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -60,20 +60,20 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/fts_white.7b332987.png"
   },
   {
-    "revision": "650f150ba357a3ca37a4",
-    "url": "/murray_grant/static/js/main.4e849d15.chunk.js"
+    "revision": "317a3f7d0cfb2328eafdb3b41dc045f6",
+    "url": "/murray_grant/static/media/gleneagelsHotel.317a3f7d.png"
   },
   {
-    "revision": "4e0235c6f4b5f7127fe9f3fd6505bc94",
-    "url": "/murray_grant/static/media/maximillion.4e0235c6.png"
+    "revision": "98a527a3e61c63c3675c",
+    "url": "/murray_grant/static/js/main.5859a74c.chunk.js"
   },
   {
     "revision": "300e85fe03ea3338f838b698d4ee9b9a",
     "url": "/murray_grant/static/media/mgaAcademy.300e85fe.png"
   },
   {
-    "revision": "f07b28c7ce54453447ffd92d99bfc57d",
-    "url": "/murray_grant/static/media/mgam_white.f07b28c7.png"
+    "revision": "53e01ce2185d4bc9fe7d898dbd099293",
+    "url": "/murray_grant/static/media/mgam_white.53e01ce2.png"
   },
   {
     "revision": "f648a7c329261ad7bc4e7882104adc27",
@@ -112,6 +112,10 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/msn.f9979fb9.JPG"
   },
   {
+    "revision": "269d7dd4feb2690728cf404e68f4135d",
+    "url": "/murray_grant/static/media/saturdayNightFever.269d7dd4.jpg"
+  },
+  {
     "revision": "25de0325e0af5fbe25f8243cc72e857f",
     "url": "/murray_grant/static/media/scotsmanOnMGAAcademy.25de0325.jpg"
   },
@@ -120,7 +124,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/stageOnMGAFundation.8cf484ef.jpg"
   },
   {
-    "revision": "e12b58132493af90278b3949da2fba27",
+    "revision": "dd9c26bffd4dbf2281fe5bc6e839ddbf",
     "url": "/murray_grant/index.html"
   }
 ];
