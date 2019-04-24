@@ -119,8 +119,12 @@ article.open{
     font-size: 1.2rem;
     span{
         font-size: 1.6rem;
-        top: 1rem;
+        top: 5rem;
         cursor: pointer;
+        opacity: .3;
+    }
+    span:hover{
+        opacity: 1;
     }
 }
 .edinburghReporterOnTheCoreLaunch{
