@@ -3,7 +3,7 @@ import './Press.scss';
 import Page from './../../components/Page/Page';
 
 import {articles} from './../../api/articles';
-console.log(articles)
+console.log(process.env.PUBLIC_URL)
 
 
 export default function Press (){
@@ -22,7 +22,7 @@ function displayArticle(article){
     const{cls, date, author, source, title, subtitle, text, img, link} = article;
     const bg = require('./../../media/imgs/'+img.path);
     return (
-        <article className={cls}>
+        <article className={cls} key={cls}>
             <div className="article__img" style={{backgroundImage:"url("+bg+")"}}>
                 <div className="article__img_caption">{img.caption}</div>
                 <div className="cover"></div>

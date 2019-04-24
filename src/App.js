@@ -10,13 +10,12 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {
-    const baseUrl = process.env.PUBLIC_URL;
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
-                 <Route exact path={`${baseUrl}/`} component={Home}/>
-                 <Route exact path={`${baseUrl}/biography`} component={Bio}/>
-                 <Route exact path={`${baseUrl}/press`} component={Press}/>
+                 <Route exact path='/' component={Home}/>
+                 <Route exact path='/biography' component={Bio}/>
+                 <Route exact path='/press' component={Press}/>
            </Switch>
        </BrowserRouter>
 
