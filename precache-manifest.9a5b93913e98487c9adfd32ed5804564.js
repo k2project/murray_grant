@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "4e0235c6f4b5f7127fe9f3fd6505bc94",
-    "url": "/murray_grant/static/media/maximillion.4e0235c6.png"
+    "revision": "f648a7c329261ad7bc4e7882104adc27",
+    "url": "/murray_grant/static/media/prudential.f648a7c3.png"
   },
   {
-    "revision": "98a527a3e61c63c3675c",
-    "url": "/murray_grant/static/css/main.fd4f635f.chunk.css"
+    "revision": "d731a8a5477fd573cee3",
+    "url": "/murray_grant/static/css/main.e8d22fb5.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
     "url": "/murray_grant/static/js/runtime~main.4d3a238e.js"
   },
   {
-    "revision": "437afeabfb2dfe695156",
-    "url": "/murray_grant/static/js/2.ebb28721.chunk.js"
+    "revision": "5de5b0ea1da6dbb934e7",
+    "url": "/murray_grant/static/js/2.6126e26d.chunk.js"
   },
   {
     "revision": "75a2c5cf4b70bd67950161e0ebacd16c",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/gleneagelsHotel.317a3f7d.png"
   },
   {
-    "revision": "98a527a3e61c63c3675c",
-    "url": "/murray_grant/static/js/main.5859a74c.chunk.js"
+    "revision": "4e0235c6f4b5f7127fe9f3fd6505bc94",
+    "url": "/murray_grant/static/media/maximillion.4e0235c6.png"
   },
   {
     "revision": "300e85fe03ea3338f838b698d4ee9b9a",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mgam_white.53e01ce2.png"
   },
   {
-    "revision": "f648a7c329261ad7bc4e7882104adc27",
-    "url": "/murray_grant/static/media/prudential.f648a7c3.png"
+    "revision": "d731a8a5477fd573cee3",
+    "url": "/murray_grant/static/js/main.cf8459f3.chunk.js"
   },
   {
     "revision": "f6a733a44788172f0ac960d7b28b6245",
@@ -104,12 +104,36 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/gsd.834e78cc.jpg"
   },
   {
+    "revision": "7d2f5b431c466d98c9efdf5268b33192",
+    "url": "/murray_grant/static/media/mg1.7d2f5b43.jpg"
+  },
+  {
+    "revision": "7306307bdec9ff57dfbe36bae5f07978",
+    "url": "/murray_grant/static/media/mg2.7306307b.jpg"
+  },
+  {
+    "revision": "97335dcb2d07c791e3d437701b07b719",
+    "url": "/murray_grant/static/media/mg3.97335dcb.jpg"
+  },
+  {
     "revision": "12e3c253dd6a20ae074b21f4d0dc369d",
     "url": "/murray_grant/static/media/mg5.1.12e3c253.jpg"
   },
   {
     "revision": "f9979fb99cf21cbede8031b19d070112",
     "url": "/murray_grant/static/media/msn.f9979fb9.JPG"
+  },
+  {
+    "revision": "c59fc5041ccff71b2bf07077bd5c412e",
+    "url": "/murray_grant/static/media/press.c59fc504.jpg"
+  },
+  {
+    "revision": "9c1bb97798d9f422b9ac16e1c4109fd3",
+    "url": "/murray_grant/static/media/press2.9c1bb977.jpg"
+  },
+  {
+    "revision": "4f934eecf4e5e63c24c4297e4b9d86c8",
+    "url": "/murray_grant/static/media/press3.4f934eec.jpg"
   },
   {
     "revision": "269d7dd4feb2690728cf404e68f4135d",
@@ -124,7 +148,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/stageOnMGAFundation.8cf484ef.jpg"
   },
   {
-    "revision": "dd9c26bffd4dbf2281fe5bc6e839ddbf",
+    "revision": "09326b5483e705415a71ac2ca17f634d",
     "url": "/murray_grant/index.html"
   }
 ];
