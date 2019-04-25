@@ -1,4 +1,20 @@
 @import './../../App.scss';  //import vars and mixins
 .Page__top{
-    height: 50rem;
+    height: 40rem;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    .cover{
+        background: rgba($color_black,.7);
+        padding: 18rem 15rem 0;
+        text-align: left;
+    }
+}
+.Page__top_title{
+    font-size: 4rem;
+}
+.Page__top_subtitle{
+    font-size: 1.5rem;
+    top: -1rem;
+    text-transform: uppercase;
 }

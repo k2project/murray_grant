@@ -4,9 +4,10 @@ import {pastProjectsSlides} from './../../../api/projects';
 
 export default function PastProjects (){
     return(
-        <div className="PastProjects subsection">
+        <section className="PastProjects">
+            <div className="section__title">Past Projects</div>
             <Slideshow/>
-        </div>
+        </section>
     )
 }
 

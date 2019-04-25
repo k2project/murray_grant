@@ -13,15 +13,19 @@ export default function CurrentProjects (){
     const projects = currentProjects.map((project,index)=>displayCurrentProjects(project,index));
 
     function runIntroAnim(){
-        const currentProjectsEl = document.querySelector('.CurrentProjects');
-        currentProjectsEl.style.display = 'grid';
-        const projects = document.querySelectorAll('.project');
-        projects.forEach((project, index)=>{
-            setTimeout(()=>{
-                project.style.opacity = 1;
-                project.style.top = 0;
-            }, index*100+50)
-        })
+        const initAnim = document.querySelector('.Home').classList.contains('not_anim');
+        if(!initAnim){
+            const currentProjectsEl = document.querySelector('.CurrentProjects');
+            currentProjectsEl.style.display = 'grid';
+            const projects = document.querySelectorAll('.project');
+            projects.forEach((project, index)=>{
+                setTimeout(()=>{
+                    project.style.opacity = 1;
+                    project.style.top = 0;
+                }, index*100+50)
+            })
+        }
+
 
     }
     function closeProjectDetails(){
@@ -37,7 +41,7 @@ export default function CurrentProjects (){
     })
 
     return(
-        <div className="CurrentProjects">
+        <section className="CurrentProjects">
             <div className="projects">
                 {projects}
                 <ProjectsDetails/>
@@ -45,7 +49,7 @@ export default function CurrentProjects (){
             <div>
                 <div className="btn" onClick={showHomeHiddenEl}>Past Projects</div>
             </div>
-        </div>
+        </section>
     )
 
 }
@@ -150,5 +154,12 @@ function showHomeHiddenEl(e){
     e.target.remove();
     document.querySelector('.Home__hidden').style.display = 'block';
     window.scrollBy(0,document.documentElement.clientHeight-200);
+
+    const pastProjectsShown = sessionStorage.getItem('pastProjectsShown');
+    if(pastProjectsShown){
+        document.querySelector('.Home').classList.add('pastProjects_shown');
+    }else{
+        sessionStorage.setItem('pastProjectsShown', 'true');
+    }
 
 }

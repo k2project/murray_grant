@@ -33,3 +33,32 @@
     opacity: 0;
     @include anim(showHomeHiddenEl, .5s, 0s, ease-in)
 }
+//stop init anim on go back button
+.Home.not_anim{
+    .CurrentProjects{
+        display: grid;
+    }
+    .project{
+        opacity: 1;
+        top: 0;
+    }
+    .Top{
+        h1{
+            opacity: 1;
+            letter-spacing: .8rem;
+        }
+        h2{
+            opacity: 1;
+            letter-spacing: .4rem;
+        }
+    }
+}
+.Home.pastProjects_shown{
+    .btn{
+        display: none;
+    }
+    .Home__hidden{
+        display: block;
+    }
+
+}

@@ -2,41 +2,32 @@
 
 .Nav{
     position: absolute;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    padding: 5rem 15rem 0;
-    top: 0;
+    top: 6rem;
+    width: 100%;
     z-index: 9;
+    text-align: left;
+    section{
+        display: grid;
+        grid-template-columns:1fr auto;
+
+    }
 }
 .Nav__brand{
-    font-size: 1.1rem;
     h1{
+        font-size: 2.2rem;
+        text-transform: uppercase;
     }
-    img{
-        width: 3rem;
-        margin-right: 1rem;
-        top: .8rem;
-    }
-}
-.Nav__media{
-    padding-top: 12rem;
 
-    a{
-        padding: 0 .6rem;
-    }
-    img{
-        height: 1.4rem;
-    }
 }
+
 
 .Nav__pages{
 
     a{
-        display:block;
-        letter-spacing: .2rem;
+        font-size: 1.2rem;
         text-transform: uppercase;
-        margin: 2rem;
-
+        margin-left:1.7rem;
+        text-align: right;
     }
     a.selected{
         // text-decoration: line-through;

@@ -10,7 +10,7 @@ import linkedin from './../../../media/icons/linkedin.png';
 export default function Top (){
 
     return(
-        <div className="Top">
+        <section className="Top">
             <div className="cover">
                 <div className="animContainer">
                     <div className="animBox">
@@ -19,6 +19,6 @@ export default function Top (){
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

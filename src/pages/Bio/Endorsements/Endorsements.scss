@@ -1,0 +1,34 @@
+@import './../../../App.scss';  //import vars and mixins
+
+.Endorsements{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: $color_purple;
+    min-height: 50rem;
+    padding: 10rem;
+    text-align: left;
+}
+.Endorsements__intro{
+    font-size: 2.5rem;
+    p{
+        width: 50%;
+        padding-top: 5rem;
+        left: 5rem;
+    }
+    img{
+        position: absolute;
+        opacity: .2;
+        height: 30rem;
+        left: 40%;
+        top: 0;
+    }
+}
+
+.quote{
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: solid .1rem #fff;
+}
+.quote__business{
+    font-size: 1.2rem;
+}

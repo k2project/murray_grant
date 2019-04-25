@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import {NavHashLink} from 'react-router-hash-link';
 import './Footer.scss';
 import facebook from './../../media/icons/facebook.png';
 import twitter from './../../media/icons/twitter.png';
@@ -16,9 +17,9 @@ export default function Footer(){
                     <NavLink to="/biography" activeClassName="selected">Biography</NavLink>
                     <NavLink to="/choreography" activeClassName="selected">Choreography</NavLink>
                     <NavLink to="/masterclasses" activeClassName="selected">Masterclasses</NavLink>
-                    <NavLink to="/biography" activeClassName="selected">Endorsements</NavLink>
+                    <NavHashLink to="/biography#endorsements" activeClassName="selected">Endorsements</NavHashLink>
                     <NavLink to="/press" activeClassName="selected">Press</NavLink>
-                    <NavLink to="/" activeClassName="selected">Contact</NavLink>
+                    <NavHashLink to="/press#contact" activeClassName="selected">Contact</NavHashLink>
                 </div>
              </div>
         </footer>

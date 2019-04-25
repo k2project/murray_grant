@@ -17,11 +17,12 @@ export default function Clients (){
         )
     })
     return(
-        <div className="Clients">
+        <section className="Clients">
+            <div className="section__title">Clients</div>
             <div className="wrapper">
                 {clientsLogos}
             </div>
-        </div>
+        </section>
     )
 
 }

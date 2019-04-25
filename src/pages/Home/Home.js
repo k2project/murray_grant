@@ -1,94 +1,55 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { NavLink } from 'react-router-dom';
+import {NavHashLink} from 'react-router-hash-link';
 import './Home.scss';
 
-import Section from './../../components/Section/Section';
 import Footer from './../../components/Footer/Footer';
+import SocialMedia from './../../components/SocialMedia';
 
 import Top from './Top/Top';
 import CurrentProjects from './CurrentProjects/CurrentProjects';
 import PastProjects from './PastProjects/PastProjects';
 import Clients from './Clients/Clients';
 
-import facebook from './../../media/icons/facebook.png';
-import twitter from './../../media/icons/twitter.png';
-import instagram from './../../media/icons/instagram.png';
-import linkedin from './../../media/icons/linkedin.png';
 
-const homeSections = {
-    top:{
-        title:{
-            text:null,
-            display:false
-        },
-        cls:'top'
-    },
-    currentProjects:{
-        title:{
-            text:'Current Projects',
-            display:false
-        },
-        cls:'currentProjects'
-    },
-    pastProjects:{
-        title:{
-            text:'Past Projects',
-            display:true
-        },
-        cls:'pastProjects'
-    },
-    clients:{
-        title:{
-            text:'Clients',
-            display:true
-        },
-        cls:'clients'
-    },
-}
+
+
 export default function Home (){
-
+    useEffect(createSessionStorageForInitAnim);
     return(
         <div className="Home">
             <div className="Home__nav">
                 <div className="Home__nav_media">
-                    <a href="https://www.linkedin.com/in/murray-grant-3066b34a/" target="_blank"  rel="noopener noreferrer">
-                        <img src={linkedin} alt="Linked In"/>
-                    </a>
-                    <a href="https://www.facebook.com/murray.grantmga" target="_blank"  rel="noopener noreferrer">
-                        <img src={facebook} alt="Facebook"/>
-                    </a>
-                    <a href="https://www.twitter.com/murraygrant85" target="_blank"  rel="noopener noreferrer">
-                        <img src={twitter} alt="Twitter"/>
-                    </a>
-                    <a href="https://www.instagram.com/murraygrant/" target="_blank"  rel="noopener noreferrer">
-                        <img src={instagram} alt="Instagram"/>
-                    </a>
+                    <SocialMedia/>
                 </div>
                 <div className="Home__nav_pages">
                     <NavLink to="/biography" activeClassName="selected">Biography</NavLink>
-                    <NavLink to="/biography" activeClassName="selected">Endorsements</NavLink>
+                    <NavHashLink to="/biography#endorsements" activeClassName="selected">Endorsements</NavHashLink>
                     <NavLink to="/press" activeClassName="selected">Press</NavLink>
-                    <NavLink to="/" activeClassName="selected">Contact</NavLink>
+                    <NavHashLink to="/press#contact" activeClassName="selected">Contact</NavHashLink>
                 </div>
             </div>
-            <Section data={homeSections.top}>
-                <Top/>
-            </Section>
-
-            <Section data={homeSections.currentProjects}>
-                <CurrentProjects/>
-            </Section>
+            <Top/>
+            <CurrentProjects/>
             <div className="Home__hidden">
-                <Section data={homeSections.pastProjects}>
-                    <PastProjects/>
-                </Section>
-                <Section data={homeSections.clients}>
-                    <Clients/>
-                </Section>
-
+                <PastProjects/>
+                <Clients/>
             </div>
 
             <Footer/>
         </div>
     )
+}
+
+function createSessionStorageForInitAnim(){
+    const initAnim = sessionStorage.getItem('initAnim');
+    const pastProjectsShown = sessionStorage.getItem('pastProjectsShown');
+    if(initAnim){
+        document.querySelector('.Home').classList.add('not_anim');
+    }else{
+        sessionStorage.setItem('initAnim', 'true');
+    }
+    if(pastProjectsShown){
+        document.querySelector('.Home').classList.add('pastProjects_shown');
+    }
 }
