@@ -47,7 +47,7 @@ export default function CurrentProjects (){
                 <ProjectsDetails/>
             </div>
             <div>
-                <div className="btn" onClick={showHomeHiddenEl}>Past Projects</div>
+                <div className="btn CurrentProjects__btn" onClick={showHomeHiddenEl}>Past Projects</div>
             </div>
         </section>
     )

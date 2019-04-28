@@ -246,6 +246,12 @@ const theCore= {
         website:'http://www.thecorescotland.com/',
     }
 }
+//=============================================
+//=============================================
+//              PAST PROJECTS
+//=============================================
+//=============================================
+
 const theBourbonStreetBoys= {
     cls:'theBourbonStreetBoys',
     current:false,
@@ -258,10 +264,14 @@ const theBourbonStreetBoys= {
         logo:null,
     },
     role:{
-        title:'Producer & Choreographer',
+        title:'Producer & Director',
         subtitle:null,
     },
-    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.  ',
+    desc:(<div>
+        <p>The Bourbon Street Boys are a slick, sassy and soulful Motown trio that will leave you feeling exhilarated by their explosive blend of electrifying music spanning soul, jazz, Motown, doo-wop and swing classes.</p>
+        <p>Their soaring emotion and roof-raising energy will have you dancing in your seats and dancing in the streets to the songs that you know and love!</p>
+        <p><a href="http://thebourbonstreetboys.com/index.php" target="_blank" rel="noopener noreferrer" className="btn">Website</a></p>
+    </div>),
     links:null,
 }
 const saturdayNightFever= {
@@ -276,10 +286,13 @@ const saturdayNightFever= {
         logo:null,
     },
     role:{
-        title:'Ensemble/Dance Captain ',
+        title:'Dance Captain / Ensemble ',
         subtitle:null,
     },
-    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.  ',
+    desc:(<div>
+        <p>Broadway and West End hit musical with songs from the Bee Gee’s based on Nick Cohn’s 1975 New York magazine article “Tribal Rites of the New Saturday Night”.</p>
+        <p><b>2015 production in Amstetten, Austria. </b></p>
+    </div>),
     links:null,
 }
 const guysSingDolls= {
@@ -294,10 +307,13 @@ const guysSingDolls= {
         logo:null,
     },
     role:{
-        title:'Producer & Choreographer',
+        title:'Producer & Director',
         subtitle:null,
     },
-    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
+    desc:(<div>
+        <p>Imagine the greatest female songs of musical theatre, movies and pop/rock fame, presented for your viewing and listening pleasure from a completely different perspective. Our supremely talented male vocalists offer you an evening of the songs they were never allowed to sing in public… until now!</p>
+        <p>Get ready to experience stunning new arrangements of classics including Dolly Parton’s ‘9 to 5’, Broadway hit ‘Wicked’ & Disney’s ‘Let it go’</p>
+    </div>),
     links:null,
 }
 const bestOfMusicalStarNights= {
@@ -308,18 +324,18 @@ const bestOfMusicalStarNights= {
         name:(<span>Best Of Musical<br/>Star Nights</span>),
     },
     imgs:{
-        bg:'msn.JPG',
+        bg:'musicalStarNight.jpg',
         logo:null,
     },
     role:{
         title:'Casting, Director & Choreographer',
         subtitle:null,
     },
-    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+    desc:'Best of Musicals is a high energy review show with songs from some of the worlds best musicals including Chicago, Elisabeth, Hairspray, Wicked, Tanz der Vampire. Over the years the show has travelled to Austria, Germany, Denmark, Italy, Switzerland and many more.  ',
     links:null,
 }
 const iba= {
-    cls:'bestOfMusicalStarNights',
+    cls:'iabarcelona',
     current:false,
     projectName:{
         display:false,
@@ -334,9 +350,36 @@ const iba= {
         title:'Recruitment & International Associate',
         subtitle:null,
     },
-    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+    desc:'The Institute of the Arts is an international conservatoire. A leader in performing arts education and training offering courses in Acting, Dance, Musical Theatre, Music, Aerial Arts, Physical Theatre and Postgraduate.  ',
     links:null,
 }
+const aurora = {
+    cls:'aurora',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Cruising Musicals Consortium',
+    },
+    imgs:{
+        bg:'aurora.jpg',
+        logo:null,
+    },
+    role:{
+        title:'Guest Director & Choreographer',
+        subtitle:null,
+    },
+    desc:(<div>
+        <p>Murray was employed by Cruising Musicals Consortium to choreograph 2 production shows for the World Cruise of their beautiful ship Aurora.</p>
+        <p>Murray sailed from San Francisco to Sydney working on the show <b><i>“Carnaby Street Capers” </i></b> followed by Mumbai to Southampton with the show <b><i>“The Phantom of the Pop’era”</i></b>.</p>
+    </div>),
+    links:null,
+}
+
+//=============================================
+//=============================================
+//              Clients
+//=============================================
+//=============================================
 const irnBru = {
     cls:'irnBru',
     current:false,
@@ -698,6 +741,82 @@ const earnstAndYoung= {
     desc:'',
     links:null,
 }
+const scotishHotelAwards= {
+    cls:'scotishHotelAwards',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Scotish Hotel Awards',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'scotishHotelAwards.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const hrNetwork= {
+    cls:'hrNetwork',
+    current:false,
+    projectName:{
+        display:false,
+        name:'HR Network',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'hrNetwork.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const murrayfield= {
+    cls:'murrayfield',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Murrayfield',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'murrayfield.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const beautiful= {
+    cls:'beautiful',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Beautiful',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'beautiful.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
 
 
 const projects=[
@@ -714,6 +833,7 @@ const projects=[
     masterclasses,
     theBourbonStreetBoys,
     guysSingDolls,
+    aurora,
     bestOfMusicalStarNights,
     saturdayNightFever,
     iba,
@@ -736,6 +856,10 @@ const projects=[
     sykes,
     irnBru,
     bp,
+    scotishHotelAwards,
+    hrNetwork,
+    murrayfield,
+    beautiful,
 ]
 const currentProjects = projects.filter(project=>project.current)
 const pastProjectsSlides = projects.filter(project=>!project.current&&project.imgs.bg)

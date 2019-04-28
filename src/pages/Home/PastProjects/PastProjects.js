@@ -44,7 +44,7 @@ function Slideshow(){
             ctrlsArr[next].classList.add('current');
 
             setCurrentSlide(next)
-        },5000);
+        },8000);
     }
     useEffect(()=>{
         runSlideshow();

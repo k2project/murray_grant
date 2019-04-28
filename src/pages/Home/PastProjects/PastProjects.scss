@@ -48,7 +48,18 @@
         transition: .25s;
         opacity: 1;
     }
-
+    p{
+        margin: 0 0 .5rem;
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
+    .btn{
+        font-size: 1.2rem;
+        color: $color_theme;
+        width: 18rem;
+        padding: 1rem 0;
+        margin-top: 3rem;
+    }
 
 }
 .Slideshow,
@@ -76,6 +87,7 @@
 }
 .Slideshow__slide_content{
     transition: none;
+    padding-top: 7rem;
 }
 .Slideshow__slide.current,
 .Slideshow__slide_content.current{
@@ -92,8 +104,8 @@
 }
 .projects__past_role{
     color: $color_theme;
-    letter-spacing: .2rem;
-    font-size: 1.8rem;
+    letter-spacing: .4rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     margin-bottom: 1em;
     font-weight: bold;
