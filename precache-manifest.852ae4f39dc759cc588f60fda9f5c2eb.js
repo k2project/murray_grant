@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/prudential.f648a7c3.png"
   },
   {
-    "revision": "1cb7ebf4c2b8ae696dbd",
-    "url": "/murray_grant/static/css/main.3f97ba94.chunk.css"
+    "revision": "143e172229bc51e96345",
+    "url": "/murray_grant/static/css/main.2b08c9ee.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -34,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "9ced1bfdb9afec3e91b3a8481acb9b4f",
     "url": "/murray_grant/static/media/bbp.9ced1bfd.png"
+  },
+  {
+    "revision": "22a8a14d0b5fc0fb9596570a35c1023a",
+    "url": "/murray_grant/static/media/beautiful.22a8a14d.png"
   },
   {
     "revision": "9f4ca9ad64828e2120dc8f4bf4faff43",
@@ -76,8 +80,12 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mgam_white.53e01ce2.png"
   },
   {
-    "revision": "1cb7ebf4c2b8ae696dbd",
-    "url": "/murray_grant/static/js/main.6ab3880a.chunk.js"
+    "revision": "6786722b47a3aecb6be65d651958caa9",
+    "url": "/murray_grant/static/media/murrayfield.6786722b.png"
+  },
+  {
+    "revision": "143e172229bc51e96345",
+    "url": "/murray_grant/static/js/main.309e80d3.chunk.js"
   },
   {
     "revision": "f6a733a44788172f0ac960d7b28b6245",
@@ -86,6 +94,10 @@ self.__precacheManifest = [
   {
     "revision": "10e2eb910100eedf34016535885ecce6",
     "url": "/murray_grant/static/media/ted.10e2eb91.svg"
+  },
+  {
+    "revision": "00e50b5f0d3c9caab83d874f27ec58e2",
+    "url": "/murray_grant/static/media/aurora.00e50b5f.jpg"
   },
   {
     "revision": "78421432f5c49925aa33effc40a117b2",
@@ -124,6 +136,10 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/msn.f9979fb9.JPG"
   },
   {
+    "revision": "78c3ef2d540f2af2861ca568870a95ff",
+    "url": "/murray_grant/static/media/musicalStarNight.78c3ef2d.jpg"
+  },
+  {
     "revision": "c59fc5041ccff71b2bf07077bd5c412e",
     "url": "/murray_grant/static/media/press.c59fc504.jpg"
   },
@@ -148,7 +164,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/stageOnMGAFundation.8cf484ef.jpg"
   },
   {
-    "revision": "d5b2967c5c28d1753cf7ce3bfcbc23f8",
+    "revision": "3e7efccc512ccfd2d98344c3c30f5600",
     "url": "/murray_grant/index.html"
   }
 ];
