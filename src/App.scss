@@ -63,6 +63,12 @@ $offset:    10rem;
 
     }
 }
+body{
+    background: $color_black;
+    // font-family: 'Raleway', sans-serif;
+    color: #fff;
+
+}
 .animContainer{
     width: 80%;
     margin: auto;
@@ -72,12 +78,6 @@ $offset:    10rem;
         left: -200%;
         text-align: center;
     }
-}
-body{
-    background: $color_black;
-    // font-family: 'Raleway', sans-serif;
-    color: #fff;
-
 }
 
 .wrapper{

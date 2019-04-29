@@ -817,6 +817,329 @@ const beautiful= {
     desc:'',
     links:null,
 }
+const essentialEdinburgh= {
+    cls:'essentialEdinburgh',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Essential Edinburgh',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'essentialEdinburgh.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const hiltonEdinburgh= {
+    cls:'hiltonEdinburgh',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Hilton Edinburgh Carlton',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'hiltonEdinburgh.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const radissonBlu= {
+    cls:'radissonBlu',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Radisson Blu Hotel, Glasgow',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'radissonBlu.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const deutscheBank= {
+    cls:'deutscheBank',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Deutsche Bank',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'deutscheBank.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const puregym= {
+    cls:'puregym',
+    current:false,
+    projectName:{
+        display:false,
+        name:'PureGym',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'puregym.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const jackWills= {
+    cls:'jackWills',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Jack Wills',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'jackWills.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const harveyNichols= {
+    cls:'harveyNichols',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Harvey Nichols',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'harveyNichols.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const hit= {
+    cls:'hit',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Hospital Industry Trust',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'hit.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const bos= {
+    cls:'bos',
+    current:false,
+    projectName:{
+        display:false,
+        name:'British Orthodontic Society',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'bos.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const cisExcellenceAwards= {
+    cls:'cisExcellenceAwards',
+    current:false,
+    projectName:{
+        display:false,
+        name:'CIS Excellence Awards',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'cisExcellenceAwards.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const thePAexchange= {
+    cls:'thePAexchange',
+    current:false,
+    projectName:{
+        display:false,
+        name:'The P A Exchange',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'thePAexchange.jpg',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const apt= {
+    cls:'apt',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Australian Pacific Touring',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'apt.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const montpeliers = {
+    cls:'montpeliers',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Montpeliers',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'montpeliers.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const i2detail = {
+    cls:'i2detail',
+    current:false,
+    projectName:{
+        display:false,
+        name:'i2detail',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'i2detail.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const ben = {
+    cls:'ben',
+    current:false,
+    projectName:{
+        display:false,
+        name:'The ben',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'ben.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const baillieGifford = {
+    cls:'baillieGifford',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Baillie Gifford',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'baillieGifford.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
+const eventit = {
+    cls:'eventit',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Eventit',
+    },
+    imgs:{
+        bg:null,
+        logo:null,
+        clientsLogo:'eventit.png',
+    },
+    role:{
+        title: null,
+        subtitle:null,
+    },
+    desc:'',
+    links:null,
+}
 
 
 const projects=[
@@ -839,27 +1162,44 @@ const projects=[
     iba,
     unionSquare,
     nationalMuseumScotland,
-    rossFountain,
+    sykes,
     fairmontHotels,
     sheraton,
     falkirkHerald,
     maximillion,
-    edinburghZoo,
+    conifox,
     prudential,
     earnstAndYoung,
-    conifox,
+    gleneagelsHotel,
+    beautiful,
+    assemblyRooms,
     balmoral,
     brodies,
-    gleneagelsHotel,
-    zealExperiential,
-    assemblyRooms,
-    sykes,
     irnBru,
-    bp,
-    scotishHotelAwards,
-    hrNetwork,
     murrayfield,
-    beautiful,
+    scotishHotelAwards,
+    radissonBlu,
+    essentialEdinburgh,
+    zealExperiential,
+    hrNetwork,
+    harveyNichols,
+    jackWills,
+    edinburghZoo,
+    puregym,
+    hiltonEdinburgh,
+    bos,
+    bp,
+    deutscheBank,
+    cisExcellenceAwards,
+    hit,
+    rossFountain,
+    apt,
+    i2detail,
+    ben,
+    montpeliers,
+    eventit,
+    thePAexchange,
+    baillieGifford,
 ]
 const currentProjects = projects.filter(project=>project.current)
 const pastProjectsSlides = projects.filter(project=>!project.current&&project.imgs.bg)
