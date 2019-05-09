@@ -18,7 +18,7 @@ export default function Clients (){
     })
     return(
         <section className="Clients">
-            <div className="section__title">Clients</div>
+            {/* <div className="section__title">Clients</div> */}
             <div className="wrapper">
                 {clientsLogos}
             </div>

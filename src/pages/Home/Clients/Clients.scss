@@ -4,20 +4,22 @@
 .Clients{
     background: $color_purple;
     padding: 18rem 0 15rem;
+    padding: 2rem 0 10rem;
     top: -.2rem;
+    // margin-top: 6rem;
     text-align: left;
     .wrapper{
         width: 120rem;
     }
     .section__title{
-        top: 9rem;
+        top: 12rem;
     }
 }
 .Clients__logo{
     display: inline-block;
-    margin:2.2rem 2.5rem;
+    margin:2rem 2rem;
     img{
-        height: 5.5rem;
+        height: 4.5rem;
         // -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
          // filter: grayscale(100%) ;
 

@@ -358,7 +358,7 @@ const aurora = {
     current:false,
     projectName:{
         display:false,
-        name:'Cruising Musicals Consortium',
+        name:'P&O Cruises',
     },
     imgs:{
         bg:'aurora.jpg',
@@ -371,6 +371,26 @@ const aurora = {
     desc:(<div>
         <p>Murray was employed by Cruising Musicals Consortium to choreograph 2 production shows for the World Cruise of their beautiful ship Aurora.</p>
         <p>Murray sailed from San Francisco to Sydney working on the show <b><i>“Carnaby Street Capers” </i></b> followed by Mumbai to Southampton with the show <b><i>“The Phantom of the Pop’era”</i></b>.</p>
+    </div>),
+    links:null,
+}
+const zannaDont = {
+    cls:'zannaDont',
+    current:false,
+    projectName:{
+        display:false,
+        name:'Zanna Don\'t',
+    },
+    imgs:{
+        bg:'zannaDont.png',
+        logo:null,
+    },
+    role:{
+        title:'Producer & Choreographer',
+        subtitle:null,
+    },
+    desc:(<div>
+        <p></p>
     </div>),
     links:null,
 }
@@ -1160,14 +1180,15 @@ const projects=[
     bestOfMusicalStarNights,
     saturdayNightFever,
     iba,
+    zannaDont,
     unionSquare,
     nationalMuseumScotland,
+    sheraton,
     sykes,
     fairmontHotels,
-    sheraton,
+    conifox,
     falkirkHerald,
     maximillion,
-    conifox,
     prudential,
     earnstAndYoung,
     gleneagelsHotel,
@@ -1188,18 +1209,18 @@ const projects=[
     puregym,
     hiltonEdinburgh,
     bos,
-    bp,
+    rossFountain,
     deutscheBank,
     cisExcellenceAwards,
+    bp,
     hit,
-    rossFountain,
     apt,
     i2detail,
     ben,
     montpeliers,
     eventit,
-    thePAexchange,
     baillieGifford,
+    thePAexchange,
 ]
 const currentProjects = projects.filter(project=>project.current)
 const pastProjectsSlides = projects.filter(project=>!project.current&&project.imgs.bg)

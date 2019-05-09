@@ -1,12 +1,12 @@
 @import './../../../App.scss';  //import vars and mixins
 
 .Top{
-    height: 80vh;
+    height: 70vh;
     display: grid;
     align-content: center;
     padding: 10rem 0 0;
     transition: 1.5s cubic-bezier(.17,.67,.45,1.29);
-    background-image: url('./../../../media/bgs/grey.jpg');
+    // background-image: url('./../../../media/bgs/grey.jpg');
     margin-bottom: 0;
     .cover{
         background: rgba($color_black_1, .9)

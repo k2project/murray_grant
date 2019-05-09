@@ -10,13 +10,13 @@ export default function Page(props){
         <div className="Page">
             <Nav/>
             <div className="Page__top" style={topBg}>
-                <div className="cover">
                     <section>
-                        {data.title && <p className="Page__top_title font_themed">{data.title}</p>}
-                        {data.subtitle && <p className="Page__top_subtitle font_themed">{data.subtitle}</p>}
-                        {data.content}
+                        <div className="cover">
+                            {data.title && <p className="Page__top_title font_themed">{data.title}</p>}
+                            {data.subtitle && <p className="Page__top_subtitle font_themed">{data.subtitle}</p>}
+                            {data.content}
+                        </div>
                     </section>
-                </div>
             </div>
             {props.children}
             <Footer/>

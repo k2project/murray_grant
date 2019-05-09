@@ -1,20 +1,39 @@
 @import './../../App.scss';  //import vars and mixins
 .Page__top{
     height: 40rem;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center top;
+    // background-repeat: no-repeat;
     .cover{
-        background: rgba($color_black,.7);
-        padding: 18rem 15rem 0;
+        // background: rgba($color_black,.7);
+        background: rgba($color_black_1, .9);
         text-align: left;
+        padding: 25rem 15rem 15rem;
     }
+    section{
+
+        background-image: url('./../../media/bgs/grey.jpg');
+        top: 1rem;
+
+    }
+    margin-bottom: 6rem;
 }
 .Page__top_title{
     font-size: 4rem;
 }
+// .Page__top_title:before{
+//     content:"";
+//     display: inline-block;
+//     width: 20rem;
+//     height: .4rem;
+//     border-top: solid .2rem #fff;
+//     position: absolute;
+//     left: -4rem;
+//     top: -1rem;
+//     // bottom: 0;
+// }
 .Page__top_subtitle{
     font-size: 1.5rem;
-    top: -1rem;
+    top: -1.5rem;
     text-transform: uppercase;
 }

@@ -128,14 +128,32 @@ section{
     margin: 0 auto 6rem;
 }
 .section__title{
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
-    font-size: 1.4rem;
-    letter-spacing: .4rem;
+    font-size: 1.6rem;
+    // letter-spacing: .4rem;
     text-transform: uppercase;
     position: absolute;
     top:12rem;
     z-index: 9;
     text-align: center;
+}
+.section__title:after,
+.section__title:before{
+    content:"";
+    display: inline-block;
+    width: 4rem;
+    height: .4rem;
+    border-top: solid .1rem #fff;
+    // background: #fff;
+    // margin-bottom: -.4rem;
+}
+.section__title:before{
+    margin-right: 1.5rem;
+
+}
+.section__title:after{
+    margin-left: 1rem;
 }
 @include desktop-sm{
     // $offset : 1rem;
