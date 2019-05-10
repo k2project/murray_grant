@@ -8,12 +8,13 @@
     min-height: 50rem;
     padding: 20rem 10rem  10rem;
     text-align: left;
-
+font-size: 1.3rem;
 }
 .Endorsements__intro{
     position: -webkit-sticky;
     position: sticky;
-    bottom: 30rem;
+    bottom: 31.5rem;
+    // padding-top: 5rem;
     font-size: 2.5rem;
     p{
         width: 50%;
@@ -22,9 +23,10 @@
     }
     img{
         position: absolute;
-        opacity: .1;
+        opacity: .4;
         height: 30rem;
         left: 35%;
+        // top: 5rem;
         top: 0;
     }
     .btn{
@@ -33,25 +35,25 @@
 }
 
 .quote{
-    padding-bottom: 2rem;
+    background: #1B1B1B;
+    padding: 5rem;
+    // padding-bottom: 3rem;
     margin-bottom: 2rem;
-    border-bottom: solid .1rem #fff;
+    // border-bottom: solid .2rem #000;
+}
+.quote__text{
+    margin-bottom: 3rem;
 }
 .quote__name{
     font-size: 1.2rem;
     left:7rem;
 }
 .quote__flag{
-    height: 2.5rem;
-    // margin-left: 1rem;
-    // margin-top: -.8rem;
+    height: 3rem;
+    // width: 5rem;
     left: -6.5rem;
-    top: .5rem;
+    top: .2rem;
 
     position: absolute;
-    // height: 5rem;
-    // top: 0;
-    // left: 1rem;
-    // z-index: 1;
-    // opacity: .5;
+
 }

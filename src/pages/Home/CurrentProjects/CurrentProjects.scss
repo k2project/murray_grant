@@ -18,9 +18,9 @@
     overflow: hidden;
 }
 .project{
-    background-image: url('./../../../media/bgs/grey2.jpg');
+    background-image: url('./../../../media/bgs/grey.jpg');
     .cover{
-        background: rgba($color_black_2, .9)
+        background: rgba($color_black_2, .95)
     }
     box-shadow: 0rem 1rem 2rem .5rem rgba($color_black, .5);
     //anim
@@ -64,13 +64,14 @@
     font-size: 1.6rem;
     line-height: 1.2;
     text-align: center;
-    background: rgba($color_black_2,1);
+    // background: rgba($color_black_2,1);
+    background: none;
     color: $color_theme;
     cursor: pointer;
 
     //anim
     opacity: 0;
-    transform: scale(.4);
+    transform: scale(.2);
 
 
 }
@@ -79,7 +80,8 @@
 .project:hover .project__logo{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
      filter: grayscale(100%);
-     transition: .25s ;
+     opacity: 0;
+     transition: 0s ;
      transform: scale(.5);
 }
 .project:hover .project__role{
@@ -185,6 +187,7 @@ a.details__btn{
     grid-template-columns: 5rem 5rem 5rem;
     font-size: 2rem;
     color: #4f4f4f;
+
     div{
         display: grid;
         align-content: center;

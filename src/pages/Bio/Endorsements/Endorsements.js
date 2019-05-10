@@ -13,8 +13,8 @@ export default function Endorsements (){
             <div className="section__title">Industry Endorsements</div>
             <div className="Endorsements" id="endorsements">
                 <div className="Endorsements__intro">
-                    <p className="font_themed">Find out what businesses I've worked with have to say about me...</p>
                     <img src={quotes} alt="quotes"/>
+                    <p className="font_themed">Find out what businesses that Murray's worked with say about him...</p>
                     <p><NavLink to="/press" className="btn">Murray in Press</NavLink></p>
                 </div>
                 <div className="Endorsements__quotes">
@@ -32,7 +32,7 @@ function displayEndorsements(endorsement){
             <div className="quote__name">
                 <b>{name}</b> <br/>
                 <i><a href={link} target="_blank"  rel="noopener noreferrer"> {title} </a></i>
-                <img src={spain} alt="" className="quote__flag"/>
+                <img src={require('./../../../media/icons/'+country.flag)} alt={country.name} className="quote__flag"/>
             </div>
         </div>
     )

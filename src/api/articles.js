@@ -116,5 +116,6 @@ let articles = [
     dublinLiveOnMurrayChoreographer,
     stagenOnMGAFundation,
 ];
-articles = articles.filter(article => article.display);
-export {articles};
+const articlesFeatured = articles.filter(article => article.display);
+const articlesOther = articles.filter(article => !article.display);
+export {articlesFeatured, articlesOther};

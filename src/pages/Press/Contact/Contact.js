@@ -9,9 +9,10 @@ export default function Contact (){
 
         <div className="Contact" id="contact">
             <div className="section__title">Contact</div>
-            <p className="mail">murray@murraygrant.co.uk</p>
+            <div className="mail">murray@murraygrant.co.uk</div>
             <SocialMedia/>
-            <p className="downloads">Download approved images for press release here.</p>
+            <p>Jenny McLean : admin@murraygrant.co.uk / 0777 234 123 </p>
+            <p>Press Enquiries : press@murraygrant.co.uk</p>
         </div>
 
     )

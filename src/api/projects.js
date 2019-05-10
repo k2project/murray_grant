@@ -350,7 +350,10 @@ const iba= {
         title:'Recruitment & International Associate',
         subtitle:null,
     },
-    desc:'The Institute of the Arts is an international conservatoire. A leader in performing arts education and training offering courses in Acting, Dance, Musical Theatre, Music, Aerial Arts, Physical Theatre and Postgraduate.  ',
+    desc:(<div>
+        <p>The Institute of the Arts is an international conservatoire. A leader in performing arts education and training offering courses in Acting, Dance, Musical Theatre, Music, Aerial Arts, Physical Theatre and Postgraduate.</p>
+        <p><a href="https://www.iabarcelona.com/" target="_blank" rel="noopener noreferrer" className="btn">Website</a></p>
+    </div>),
     links:null,
 }
 const aurora = {

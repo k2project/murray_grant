@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Articles.scss';
 
-import {articles} from './../../../api/articles';
-
+import {articlesFeatured, articlesOther} from './../../../api/articles';
 
 export default function Articles (){
+    const [displayAllArticles, setDisplayAllArticles] = useState(false);
 
-    const articlesList = articles.map(article=>displayArticle(article));
+    function showOtherArticles(e){
+        e.target.remove();
+        setDisplayAllArticles(true);
+    }
+    const articlesFeaturedList = articlesFeatured.map(article=>displayArticle(article));
+    const articlesOtherList = articlesOther.map(article=>displayArticle(article));
+
     return(
 
         <div className="Articles">
-            {articlesList}
+            {articlesFeaturedList}
+            <div className="btn" onClick={e=>showOtherArticles(e)}>More Press</div>
+            {displayAllArticles && <div>
+                {articlesOtherList}
+            </div>}
         </div>
 
     )

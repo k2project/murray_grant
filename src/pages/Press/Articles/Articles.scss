@@ -3,16 +3,18 @@
 .Articles{
     // margin-top: -30rem;
     text-align: left;
+    text-align: center;
     .btn{
         margin-top: 2rem;
     }
 }
 article{
-    background: #fff;
-    color: #111;
+    background: $color_black_1;
+    color: #fff;
     min-height: 55rem;
     margin-bottom: 6rem;
     font-size: 1.4rem;
+    text-align: left;
 }
 
 .article__img,
@@ -22,9 +24,13 @@ article{
 .article__img{
     position: absolute;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     font-size: 1.2rem;
     height: 55rem;
+    transition: .7s;
+    .cover{
+        transition: 1.5s;
+    }
 
 }
 .article__heading{
@@ -44,8 +50,17 @@ article:nth-child(odd) {
         left: 0;
     }
 }
+article:nth-child(even) {
+    .article__heading{
+        transition: .5s;
+    }
+    .article__img{
+        background-position: left;
+        // grid-column: 2;
+    }
+}
 article.open{
-    background: #f5f5f5;
+
     .article__img{
         width: 100%;
         left: 0;
@@ -65,6 +80,12 @@ article.open{
     }
     .article__body{
         display: block;
+        background: #f5f5f5;
+        background: #fff;
+        color: $color_black_1;
+        // top: -5rem;
+        // opacity: 0;
+        // @include anim(slideBodyIn, .5s , .5s, ease-out);
     }
     .article__arr{
         display: block;
@@ -104,6 +125,10 @@ article.open{
 .article__text{
     column-count: 2;
     column-gap: 5rem;
+    p{
+        display: inline-block;
+    }
+
     a{
         font-weight: bold;
     }
