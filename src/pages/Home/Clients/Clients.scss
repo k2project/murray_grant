@@ -4,10 +4,10 @@
 .Clients{
     background: $color_purple;
     padding: 18rem 0 15rem;
-    padding: 2rem 0 10rem;
+    padding: 10rem 0 10rem;
     top: -.2rem;
     // margin-top: 6rem;
-    text-align: left;
+    // text-align: left;
     .wrapper{
         width: 120rem;
     }
@@ -23,7 +23,7 @@
         // -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
          // filter: grayscale(100%) ;
 
-         opacity: .5;
+         opacity: .8;
     }
     p{
         font-size: 1.2rem;

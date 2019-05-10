@@ -9,34 +9,16 @@ import twitter from './../../../media/icons/twitter.png';
 import instagram from './../../../media/icons/instagram.png';
 
 let projectIndex = 0;
+let projectsDetailsShown = false;
 export default function CurrentProjects (){
     const projects = currentProjects.map((project,index)=>displayCurrentProjects(project,index));
 
-    function runIntroAnim(){
-        const initAnim = document.querySelector('.Home').classList.contains('not_anim');
-        if(!initAnim){
-            const currentProjectsEl = document.querySelector('.CurrentProjects');
-            currentProjectsEl.style.display = 'grid';
-            const projects = document.querySelectorAll('.project');
-            projects.forEach((project, index)=>{
-                setTimeout(()=>{
-                    project.style.opacity = 1;
-                    project.style.top = 0;
-                }, index*100+50)
-            })
-        }
-
-
-    }
-    function closeProjectDetails(){
-        const detailsBox = document.querySelector('.project__details');
-        detailsBox.style.display = 'none';
-    }
     useEffect(()=>{
         const introAnim = setTimeout(runIntroAnim,3500);
-
+        document.addEventListener('keydown', slideProjectDetailsListUsingArrowsKeys);
         return ()=>{
             clearTimeout(introAnim);
+            document.removeEventListener('keydown', slideProjectDetailsListUsingArrowsKeys);
         }
     })
 
@@ -51,6 +33,22 @@ export default function CurrentProjects (){
             </div>
         </section>
     )
+
+}
+function runIntroAnim(){
+    const initAnim = document.querySelector('.Home').classList.contains('not_anim');
+    if(!initAnim){
+        const currentProjectsEl = document.querySelector('.CurrentProjects');
+        currentProjectsEl.style.display = 'grid';
+        const projects = document.querySelectorAll('.project');
+        projects.forEach((project, index)=>{
+            setTimeout(()=>{
+                project.style.opacity = 1;
+                project.style.top = 0;
+            }, index*100+50)
+        })
+    }
+
 
 }
 function displayCurrentProjects(project,index){
@@ -75,9 +73,9 @@ function displayCurrentProjects(project,index){
     )
 }
 function displayProjectsDeatils(index){
+    projectsDetailsShown = true;
     projectIndex = index;
-    console.log(projectIndex)
-    document.querySelector('.projects').scrollIntoView({block: "center"});
+    document.querySelector('.projects').scrollIntoView({behavior: "smooth",block: "center"});
     const detailsBox = document.querySelector('.projectsDetails__box');
     detailsBox.style.display = 'block';
 
@@ -90,18 +88,35 @@ function displayProjectsDeatils(index){
 function slideProjectDetailsList(index){
     const projectBoxW = document.querySelector('.projects').offsetWidth;
     const projectDetailsUl = document.querySelector('.projectsDetails__box ul');
-    console.log(projectIndex)
     if(index<0){
         projectIndex = currentProjects.length-1;
     }
     if(index>currentProjects.length-1){
         projectIndex = 0;
     }
-    console.log(projectIndex)
     projectDetailsUl.style.left = -1 * projectBoxW * projectIndex + 'px';
 
     const page  = projectIndex + 1;
-    document.querySelector('.projectDetails__pagination').textContent = page +' / '+currentProjects.length
+    document.querySelector('.projectDetails__pagination').textContent = page +' / '+currentProjects.length;
+    console.log(projectsDetailsShown)
+
+}
+function slideProjectDetailsListUsingArrowsKeys(e){
+    if(projectsDetailsShown){
+
+        if (e.code === 'ArrowLeft') {
+            e.preventDefault();
+            // left arrow
+            console.log('left arrow')
+            slideProjectDetailsList(--projectIndex)
+        }
+        if (e.code === 'ArrowRight') {
+            e.preventDefault();
+            // right arrow
+            console.log('right arrow')
+            slideProjectDetailsList(++projectIndex)
+        }
+    }
 
 }
 
@@ -121,6 +136,8 @@ function ProjectsDetails(){
 }
 function closeProjectDetails(){
     document.querySelector('.projectsDetails__box').style.display = 'none';
+    projectsDetailsShown = false;
+    console.log(projectsDetailsShown)
 }
 function displayProjectDetails(project){
     const { cls, links, desc, imgs, projectName, subpageURL, role} = project;
@@ -152,8 +169,10 @@ function displayProjectDetails(project){
 }
 function showHomeHiddenEl(e){
     e.target.remove();
-    document.querySelector('.Home__hidden').style.display = 'block';
-    window.scrollBy(0,document.documentElement.clientHeight-200);
+    const hiddenEl = document.querySelector('.Home__hidden')
+    hiddenEl.style.display = 'block';
+    hiddenEl.scrollIntoView(true);
+    // window.scrollBy(0,document.documentElement.clientHeight-200);
 
     const pastProjectsShown = sessionStorage.getItem('pastProjectsShown');
     if(pastProjectsShown){

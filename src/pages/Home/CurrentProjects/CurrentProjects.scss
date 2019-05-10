@@ -3,6 +3,7 @@
 .CurrentProjects{
         display: none; //anim
         margin-top: -10rem;
+        margin-bottom: 0;
 }
 
 .projects{
@@ -212,9 +213,14 @@ a.details__btn{
         text-transform: lowercase;
     }
 }
-.projectsDetails__li.masterclasses,
+.projectsDetails__li.masterclasses{
+    .details__logo{
+        top: -12rem;
+    }
+}
+
 .projectsDetails__li.choreographyProjects{
-    .projectDetails_lft{
-        // left: 20rem;
+    .details__logo{
+        top: -3rem;
     }
 }
