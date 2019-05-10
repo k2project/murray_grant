@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f648a7c329261ad7bc4e7882104adc27",
-    "url": "/murray_grant/static/media/prudential.f648a7c3.png"
+    "revision": "6786722b47a3aecb6be65d651958caa9",
+    "url": "/murray_grant/static/media/murrayfield.6786722b.png"
   },
   {
-    "revision": "faccd046cd9b49e94125",
-    "url": "/murray_grant/static/css/main.4a1d1d6b.chunk.css"
+    "revision": "3856270c636095f2ffda",
+    "url": "/murray_grant/static/css/main.03fd0637.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -48,8 +48,20 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/brodies.9f4ca9ad.png"
   },
   {
+    "revision": "9e311dd89e07aa53f27a69810f1f979d",
+    "url": "/murray_grant/static/media/choreography - Copy.9e311dd8.png"
+  },
+  {
+    "revision": "4430aa146df3e1642e799310a5ffbba5",
+    "url": "/murray_grant/static/media/choreography.4430aa14.png"
+  },
+  {
     "revision": "38bd5ef00e050b4272fec9256c40d2a6",
-    "url": "/murray_grant/static/media/conifox.38bd5ef0.jpg"
+    "url": "/murray_grant/static/media/conifox - Copy.38bd5ef0.jpg"
+  },
+  {
+    "revision": "4a584b0a57f24f3b8385e485cb95fc3d",
+    "url": "/murray_grant/static/media/conifox.4a584b0a.jpg"
   },
   {
     "revision": "3cd917c800dbe362d28a27ca09f3d09c",
@@ -88,6 +100,10 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/jackWills.891874c0.png"
   },
   {
+    "revision": "f74eaff2966a6845c4379b46e01525e0",
+    "url": "/murray_grant/static/media/masterclass.f74eaff2.png"
+  },
+  {
     "revision": "4e0235c6f4b5f7127fe9f3fd6505bc94",
     "url": "/murray_grant/static/media/maximillion.4e0235c6.png"
   },
@@ -104,12 +120,12 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/montpeliers.3dbe0da0.png"
   },
   {
-    "revision": "6786722b47a3aecb6be65d651958caa9",
-    "url": "/murray_grant/static/media/murrayfield.6786722b.png"
+    "revision": "3856270c636095f2ffda",
+    "url": "/murray_grant/static/js/main.7786530c.chunk.js"
   },
   {
-    "revision": "faccd046cd9b49e94125",
-    "url": "/murray_grant/static/js/main.684c4d80.chunk.js"
+    "revision": "f648a7c329261ad7bc4e7882104adc27",
+    "url": "/murray_grant/static/media/prudential.f648a7c3.png"
   },
   {
     "revision": "f087580b308456539c5c4b98a73ec8e2",
@@ -117,7 +133,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "905bb205f4e8795f33ba13c072f5a0ed",
-    "url": "/murray_grant/static/media/radissonBlu.905bb205.png"
+    "url": "/murray_grant/static/media/radissonBlu - Copy.905bb205.png"
+  },
+  {
+    "revision": "62b997f58386c058903d21602e48ec5e",
+    "url": "/murray_grant/static/media/radissonBlu.62b997f5.png"
   },
   {
     "revision": "f6a733a44788172f0ac960d7b28b6245",
@@ -129,7 +149,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "5f819f32c007f2a582551bd428f98ce4",
-    "url": "/murray_grant/static/media/thePAexchange.5f819f32.jpg"
+    "url": "/murray_grant/static/media/thePAexchange--copy.5f819f32.jpg"
+  },
+  {
+    "revision": "039bd65cf576f80a864d49ba465a417b",
+    "url": "/murray_grant/static/media/thePAexchange.039bd65c.jpg"
   },
   {
     "revision": "00e50b5f0d3c9caab83d874f27ec58e2",
@@ -200,19 +224,23 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/stageOnMGAFundation.8cf484ef.jpg"
   },
   {
+    "revision": "70949b93f865fe1d0978e3df23613830",
+    "url": "/murray_grant/static/media/zannaDont - Copy.70949b93.png"
+  },
+  {
     "revision": "bd96290d09dadb6d9fe714ccb47b23d4",
     "url": "/murray_grant/static/media/zannaDont.bd96290d.jpg"
   },
   {
-    "revision": "70949b93f865fe1d0978e3df23613830",
-    "url": "/murray_grant/static/media/zannaDont.70949b93.png"
+    "revision": "83988cfcceac73a867728743a5487460",
+    "url": "/murray_grant/static/media/zannaDont.83988cfc.png"
   },
   {
     "revision": "75a2c5cf4b70bd67950161e0ebacd16c",
     "url": "/murray_grant/static/media/grey.75a2c5cf.jpg"
   },
   {
-    "revision": "1ae5de88336fc63d06a2d8b996c03b57",
+    "revision": "32a6bad9d8bd1e74a67f630ca3fdfa9f",
     "url": "/murray_grant/index.html"
   }
 ];
