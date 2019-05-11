@@ -27,17 +27,17 @@ export default function Page(props){
 
 function Video (props){
     const {video} = props;
-    // const [videoLoading, setVideoLoading] = useState(true);
+    const [videoLoading, setVideoLoading] = useState(true);
     useEffect(()=>{
         const video = document.getElementById("page-video");
         video.onloadeddata = function() {
-            // setVideoLoading(false);
+            setVideoLoading(false);
             video.classList.add('show');
         };
     })
     return(
         <div className="Video">
-            {/* {videoLoading && <img src={loader} alt="loader" className="loader"/>} */}
+            {videoLoading && <img src={loader} alt="loader" className="loader"/>}
             <video loop autoPlay id="page-video">
                  <source src={require('./../../media/videos/'+video)} type="video/mp4" />
             </video>
