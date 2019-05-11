@@ -1,8 +1,9 @@
 @import './../../../App.scss';  //import vars and mixins
 
 .Endorsements{
-    align-items: end;
+    align-items: start;
     display: grid;
+    grid-auto-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     background: $color_purple;
     min-height: 50rem;
@@ -13,27 +14,34 @@ font-size: 1.3rem;
 .Endorsements__intro{
     position: -webkit-sticky;
     position: sticky;
-    bottom: 31.5rem;
+    top: 5rem;
     // padding-top: 5rem;
     font-size: 2.5rem;
     p{
-        width: 50%;
-        padding-top: 5rem;
-        left: 5rem;
+        width: 60%;
+        left: 8rem;
+        top: 7rem;
     }
-    img{
-        position: absolute;
-        opacity: .4;
-        height: 30rem;
-        left: 35%;
-        // top: 5rem;
-        top: 0;
-    }
+
     .btn{
-        top: -3rem;
+        top: 3rem;
     }
 }
-
+.quote__img_btm,
+.quote__img_top{
+    position: absolute;
+    opacity: .4;
+    width: 30rem;
+}
+.quote__img_top{
+    top: 20rem;
+    left: 10rem;
+}
+.quote__img_btm{
+    bottom: 12rem;
+    right: 50%;
+    transform: scaleX(-1);
+}
 .quote{
     background: #1B1B1B;
     padding: 5rem;
