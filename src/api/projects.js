@@ -40,7 +40,7 @@ const choreographyProjects = {
     },
     desc:'Murray is a freelance chorepgrapher and has been choreographing for the last 10 years choreographing shows such as Musical Starnights, 12 Tenors, Carnaby Street Capers, The Addams Family, Legally Blonde and more while working for companies such as P&O Cruises, The Entertainment Department, Maxilillion Events, Institute of the Arts – Barcelona, Ernst & Young, BP, Edinburgh Zoo and many more. ',
     links:null,
-    subpageURL:'/choregraphy',
+    subpageURL:'/choreography',
 }
 const danceStar = {
     cls:'danceStar',
