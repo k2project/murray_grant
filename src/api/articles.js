@@ -113,8 +113,8 @@ const edinburghReporterOnTheCoreLaunch = {
 let articles = [
     scotsmanOnMGAAcademy,
     edinburghReporterOnTheCoreLaunch,
-    dublinLiveOnMurrayChoreographer,
     stagenOnMGAFundation,
+    dublinLiveOnMurrayChoreographer,
 ];
 const articlesFeatured = articles.filter(article => article.display);
 const articlesOther = articles.filter(article => !article.display);

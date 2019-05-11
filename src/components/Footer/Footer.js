@@ -13,13 +13,13 @@ export default function Footer(){
             <div className="cover">
                 <div> Murray Grant Official Website &copy;{new Date().getFullYear()}</div>
                 <div>
-                    <NavLink to="/" exact activeClassName="selected">Home</NavLink>
-                    <NavLink to="/biography" activeClassName="selected">Biography</NavLink>
-                    <NavLink to="/choreography" activeClassName="selected">Choreography</NavLink>
-                    <NavLink to="/masterclasses" activeClassName="selected">Masterclasses</NavLink>
-                    <NavHashLink to="/biography#endorsements" activeClassName="selected">Endorsements</NavHashLink>
-                    <NavLink to="/press" activeClassName="selected">Press</NavLink>
-                    <NavHashLink to="/press#contact" activeClassName="selected">Contact</NavHashLink>
+                    <NavLink to="/" exact >Home</NavLink>
+                    <NavLink to="/biography" >Biography</NavLink>
+                    <NavLink to="/choreography" >Choreography</NavLink>
+                    <NavLink to="/masterclasses" >Masterclasses</NavLink>
+                    <NavHashLink to="/biography#endorsements" >Endorsements</NavHashLink>
+                    <NavLink to="/press" >Press</NavLink>
+                    <NavHashLink to="/press#contact" >Contact</NavHashLink>
                 </div>
              </div>
         </footer>

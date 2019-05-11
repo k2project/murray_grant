@@ -1,0 +1,11 @@
+@import './../../App.scss';  //import vars and mixins
+
+.Choreography{
+    .Page__top{
+        height: 80vh;
+        .cover{
+            background: rgba($color_black_1,.6);
+        }
+    }
+
+}
