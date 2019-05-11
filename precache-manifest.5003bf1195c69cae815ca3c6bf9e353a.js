@@ -4,16 +4,20 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/prudential.f648a7c3.png"
   },
   {
-    "revision": "f17c0cd0e553c3b16e09",
-    "url": "/murray_grant/static/css/main.8deb622e.chunk.css"
+    "revision": "32962b3b52cfc7e1b2b9",
+    "url": "/murray_grant/static/css/main.b65ff11f.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
     "url": "/murray_grant/static/js/runtime~main.4d3a238e.js"
   },
   {
-    "revision": "1c1cb3ed12acdb5d6761",
-    "url": "/murray_grant/static/js/2.c618a6f0.chunk.js"
+    "revision": "419566eb4ab00050c5b3",
+    "url": "/murray_grant/static/js/2.469e5019.chunk.js"
+  },
+  {
+    "revision": "79355d08fbe245921bc9c52efd88e562",
+    "url": "/murray_grant/static/media/loader.79355d08.png"
   },
   {
     "revision": "75a2c5cf4b70bd67950161e0ebacd16c",
@@ -124,8 +128,8 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/murrayfield.6786722b.png"
   },
   {
-    "revision": "f17c0cd0e553c3b16e09",
-    "url": "/murray_grant/static/js/main.e7170894.chunk.js"
+    "revision": "32962b3b52cfc7e1b2b9",
+    "url": "/murray_grant/static/js/main.b71d2c4e.chunk.js"
   },
   {
     "revision": "f087580b308456539c5c4b98a73ec8e2",
@@ -244,11 +248,15 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/video_choreography.85b8e0d9.mp4"
   },
   {
+    "revision": "498a521dd2cfd8afe13ba638676a8988",
+    "url": "/murray_grant/static/media/loader.498a521d.gif"
+  },
+  {
     "revision": "e8edcc69f754d5e399e4198230a26b26",
     "url": "/murray_grant/static/media/mail_blk.e8edcc69.png"
   },
   {
-    "revision": "2284ed53a3a99df4838be8d1d6dbdcd7",
+    "revision": "bf9bd529b52fae5cc840ef3338b5d0ad",
     "url": "/murray_grant/index.html"
   }
 ];
