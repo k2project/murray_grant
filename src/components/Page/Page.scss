@@ -59,22 +59,32 @@
         transition: 1s  ease-out;
     }
 }
+.video_ctrl_sound{
+    position: absolute;
+    bottom: 5rem;
+    right: 10rem;
+    z-index: 9;
+    img{
+        height: 3rem;
+        cursor: pointer;
+    }
+}
 .loader{
     height: 7rem;
     position: absolute;
     top: calc(50% - 5rem);
-    z-index: 2;
+    // z-index: 2;
     opacity: 0;
-    filter: blur(.09rem);
+    // filter: blur(.09rem);
     transform: rotate(0deg);
     animation: loader 1s .5s infinite linear;
 }
 @keyframes loader{
     from{
-        opacity: .6;
+        opacity: 1;
     }
     to{
-        opacity: .9;
+        opacity: 1;
         transform: rotate(360deg);
     }
 }

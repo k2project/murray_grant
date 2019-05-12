@@ -30,7 +30,7 @@ export default function Home (){
                 </div>
             </div>
             <Top/>
-            <CurrentProjects/>
+            <CurrentProjects />
             <div className="Home__hidden">
                 <PastProjects/>
                 <Clients/>

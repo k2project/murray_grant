@@ -23,7 +23,7 @@ export default function CurrentProjects (){
     })
 
     return(
-        <section className="CurrentProjects">
+        <section className="CurrentProjects" id="projects">
             <div className="projects">
                 {projects}
                 <ProjectsDetails/>
