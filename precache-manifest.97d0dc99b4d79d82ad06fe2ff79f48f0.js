@@ -4,20 +4,16 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/prudential.f648a7c3.png"
   },
   {
-    "revision": "8ab6bce0bb538b550b02",
-    "url": "/murray_grant/static/css/main.b65ff11f.chunk.css"
+    "revision": "8dac9ae6cf466a05773f",
+    "url": "/murray_grant/static/css/main.aedfe360.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
     "url": "/murray_grant/static/js/runtime~main.4d3a238e.js"
   },
   {
-    "revision": "f8ceb71a7a7bd7afc9c9",
-    "url": "/murray_grant/static/js/2.13b66690.chunk.js"
-  },
-  {
-    "revision": "79355d08fbe245921bc9c52efd88e562",
-    "url": "/murray_grant/static/media/loader.79355d08.png"
+    "revision": "294a9ea3f8c5dfad971b",
+    "url": "/murray_grant/static/js/2.1d0d14b0.chunk.js"
   },
   {
     "revision": "75a2c5cf4b70bd67950161e0ebacd16c",
@@ -117,7 +113,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "53e01ce2185d4bc9fe7d898dbd099293",
-    "url": "/murray_grant/static/media/mgam_white.53e01ce2.png"
+    "url": "/murray_grant/static/media/mgam_white - Copy.53e01ce2.png"
+  },
+  {
+    "revision": "6d0f636ad52a1886ba63d6ce1cbb40dd",
+    "url": "/murray_grant/static/media/mgam_white.6d0f636a.png"
   },
   {
     "revision": "3dbe0da0768118aa04b7485e1e542a11",
@@ -128,8 +128,8 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/murrayfield.6786722b.png"
   },
   {
-    "revision": "8ab6bce0bb538b550b02",
-    "url": "/murray_grant/static/js/main.2d1fcf98.chunk.js"
+    "revision": "8dac9ae6cf466a05773f",
+    "url": "/murray_grant/static/js/main.04d59a3e.chunk.js"
   },
   {
     "revision": "f087580b308456539c5c4b98a73ec8e2",
@@ -256,7 +256,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mail_blk.e8edcc69.png"
   },
   {
-    "revision": "9744782b011e32835c1e30704d92e0f7",
+    "revision": "8ec7580ac25a0f6fcdfc39b2e5933462",
     "url": "/murray_grant/index.html"
   }
 ];
