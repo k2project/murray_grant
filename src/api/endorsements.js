@@ -43,9 +43,10 @@ const chrisStapelberg = {
 
 let endorsements = [
     natalieWeiss,
-    sarahMilne,
     markLethem,
     chrisStapelberg,
+    sarahMilne,
+
 
 ];
 export {endorsements};

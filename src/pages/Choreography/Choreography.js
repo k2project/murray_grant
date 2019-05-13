@@ -6,7 +6,10 @@ import Page from './../../components/Page/Page';
 const topContent = {
     title:'Choreography Projects',
     subtitle:'International Freelancer',
-    video:'video_choreography.mp4',
+    video:{
+        path:'video_choreography.mp4',
+        sound:true
+    },
     content: (<div className="btn"><NavHashLink to="/press#contact">Enquire Now!</NavHashLink></div>),
 }
 export default function Choreography (){

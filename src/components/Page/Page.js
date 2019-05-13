@@ -7,6 +7,11 @@ import soundIsOff from './../../media/icons/soundIsOff.png';
 import soundIsOn from './../../media/icons/soundIsOn.png';
 
 export default function Page(props){
+    useEffect(()=>{
+        if(!window.location.hash){
+            window.scrollTo(0,0);
+        }
+    });
     const {data} = props;
     return(
         <div className="Page">
@@ -28,41 +33,66 @@ export default function Page(props){
 }
 
 function Video (props){
-    const {video} = props;
+    const {path, sound} = props.video;
 
     const [soundOn, setSound] = useState(true);
-    function toggleSound(){
-        const video = document.getElementById("page-video");
+    const [videoLoading, setVideoLoading] = useState(true);
 
+    function toggleSound(){
+        const vid = document.getElementById("page-video");
         if(soundOn){
             setSound(false);
-            video.muted = true;
+            vid.muted = true;
         }
         if(!soundOn){
             setSound(true);
-            video.muted = false;
+            vid.muted = false;
         }
     }
-
-    const [videoLoading, setVideoLoading] = useState(true);
     useEffect(()=>{
-        const video = document.getElementById("page-video");
-        video.onloadeddata = function() {
+        const vid = document.getElementById("page-video");
+
+        vid.onloadeddata = function() {
             setVideoLoading(false);
-            video.classList.add('show');
-            video.muted = false;
+            vid.classList.add('show');
+            vid.muted = false;
         };
+        //for video with sound
+        //mute sound when video out of viewport
+        if(sound){
+            document.addEventListener('scroll', muteVideoOnScroll)
+            document.addEventListener('load', muteVideoOnScroll)
+            document.addEventListener('resize', muteVideoOnScroll)
+        }
+        return ()=>{
+            document.removeEventListener('scroll', muteVideoOnScroll)
+            document.removeEventListener('load', muteVideoOnScroll)
+            document.removeEventListener('resize', muteVideoOnScroll)
+        }
     })
     return(
         <div className="Video">
             {videoLoading && <img src={loader} alt="loader" className="loader"/>}
             <video loop autoPlay id="page-video">
-                 <source src={require('./../../media/videos/'+video)} type="video/mp4" />
+                 <source src={require('./../../media/videos/'+path)} type="video/mp4" />
             </video>
-            <div className="video_ctrl_sound" onClick={toggleSound}>
+            {sound && <div className="video_ctrl_sound" onClick={toggleSound}>
                 {soundOn && <img src={soundIsOn} alt="sound on"/>}
                 {!soundOn && <img src={soundIsOff} alt="sound off"/>}
-            </div>
+            </div>}
         </div>
     )
+}
+
+function muteVideoOnScroll(){
+    const vid = document.getElementById("page-video");
+    const pageTop = document.querySelector('.Page__top');
+    const vidBottom = pageTop.getBoundingClientRect().bottom;
+    console.log(vidBottom)
+    if(vidBottom < -50){
+        vid.pause();
+    }else{
+        vid.play();
+    }
+
 }

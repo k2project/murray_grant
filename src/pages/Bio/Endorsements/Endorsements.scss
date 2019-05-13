@@ -3,13 +3,14 @@
 .Endorsements{
     align-items: start;
     display: grid;
-    grid-auto-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
+    // grid-auto-rows: 1fr;
+    // grid-template-columns: 1fr 1fr;
     background: $color_purple;
     min-height: 50rem;
     padding: 20rem 10rem  10rem;
     text-align: left;
 font-size: 1.3rem;
+
 }
 .Endorsements__intro{
     position: -webkit-sticky;
@@ -40,16 +41,22 @@ font-size: 1.3rem;
 .quote__img_btm{
     bottom: 12rem;
     right: 50%;
-    transform: scaleX(-1);
+    transform: scale(-1,-1);
+}
+.Endorsements__quotes{
+    column-count: 3;
+    column-gap: 0;
+
 }
 .quote{
     background: #1B1B1B;
     padding: 5rem;
-    // padding-bottom: 3rem;
-    margin-bottom: 2rem;
-    // border-bottom: solid .2rem #000;
-    left: 5rem;
-    width: 95%;
+    // margin-bottom: 2rem;
+    // left: 5rem;
+    // width: 95%;
+    margin:0 1rem 2rem;
+    display: inline-block;
+
 }
 .quote__text{
     margin-bottom: 3rem;

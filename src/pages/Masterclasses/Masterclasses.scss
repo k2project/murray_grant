@@ -1,6 +1,6 @@
 @import './../../App.scss';  //import vars and mixins
 
-.Choreography{
+.Masterclasses{
     .Page__top{
         height: 80vh;
         .cover{
@@ -8,4 +8,10 @@
         }
     }
 
+}
+.Masterclasses__info{
+    background: $color_black_1;
+    padding: 10rem;
+    font-size: 1.6rem;
+    display: grid;
 }

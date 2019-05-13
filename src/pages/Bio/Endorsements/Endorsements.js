@@ -12,12 +12,12 @@ export default function Endorsements (){
         <section>
             <div className="section__title">Industry Endorsements</div>
             <div className="Endorsements" id="endorsements">
-                <img src={quotes} alt="quotes" className="quote__img_top"/>
+                {/* <img src={quotes} alt="quotes" className="quote__img_top"/>
                 <img src={quotes} alt="quotes" className="quote__img_btm"/>
                 <div className="Endorsements__intro">
                     <p className="font_themed">Find out what businesses that Murray's worked with say about him...</p>
                     <p><NavLink to="/press" className="btn">Murray in Press</NavLink></p>
-                </div>
+                </div> */}
                 <div className="Endorsements__quotes">
                     {endorsementsList}
                 </div>

@@ -62,10 +62,11 @@
 .video_ctrl_sound{
     position: absolute;
     bottom: 5rem;
-    right: 10rem;
+    right: 7rem;
     z-index: 9;
     img{
-        height: 3rem;
+        height: 2.7rem;
+        transform: scaleX(1.1);
         cursor: pointer;
     }
 }
