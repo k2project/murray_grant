@@ -56,3 +56,22 @@ export function removeTooltip(e,tooltipEl){
 export function splitWord(word){
     return word.split('').map(letter=><span key={'split_word__'+letter}>{letter}</span>)
 }
+
+export function selectNavLink(links){
+
+    let path = window.location.href
+                .split('/')
+                .filter(el=>el.length>1) //get rid of ""
+                .pop();
+    if(path.includes('#')){
+        path = path.split('#')
+                .filter(el=>el.length>1)
+                .pop();
+    }
+    links.forEach(link=>{
+        link.classList.remove('selected');
+        if(link.textContent.toLowerCase().trim() === path){
+            link.classList.add('selected');
+        }
+    })
+}

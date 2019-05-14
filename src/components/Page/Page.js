@@ -36,37 +36,37 @@ function Video (props){
     const {path, sound} = props.video;
 
     const [soundOn, setSound] = useState(true);
-    const [videoLoading, setVideoLoading] = useState(true);
-
     function toggleSound(){
         const vid = document.getElementById("page-video");
         if(soundOn){
             setSound(false);
             vid.muted = true;
+            sessionStorage.setItem('videoSound','off');
         }
         if(!soundOn){
             setSound(true);
             vid.muted = false;
+            sessionStorage.setItem('videoSound','on');
         }
     }
+    const [videoLoading, setVideoLoading] = useState(true);
     useEffect(()=>{
         const vid = document.getElementById("page-video");
-
+        //animate video on load
         vid.onloadeddata = function() {
             setVideoLoading(false);
             vid.classList.add('show');
-            vid.muted = false;
         };
         //for video with sound
-        //mute sound when video out of viewport
+        //set the sound controls
+        //mute when video out of viewport
         if(sound){
+            setSound(setVideoSounInSessionStorage(vid));
             document.addEventListener('scroll', muteVideoOnScroll)
-            document.addEventListener('load', muteVideoOnScroll)
             document.addEventListener('resize', muteVideoOnScroll)
         }
         return ()=>{
             document.removeEventListener('scroll', muteVideoOnScroll)
-            document.removeEventListener('load', muteVideoOnScroll)
             document.removeEventListener('resize', muteVideoOnScroll)
         }
     })
@@ -90,9 +90,26 @@ function muteVideoOnScroll(){
     const vidBottom = pageTop.getBoundingClientRect().bottom;
     console.log(vidBottom)
     if(vidBottom < -50){
-        vid.pause();
+        vid.muted = true;
     }else{
-        vid.play();
+        setVideoSounInSessionStorage(vid);
     }
 
+}
+function setVideoSounInSessionStorage(vid){
+    const videoSound = sessionStorage.getItem('videoSound');
+    //return boolen value for useState->soundOn on load
+    if(!videoSound){
+        sessionStorage.setItem('videoSound','on');
+        vid.muted = false;
+        return true;
+    }else{
+        if(videoSound === 'on'){
+            vid.muted = false;
+            return true;
+        }else{
+            vid.muted = true;
+            return false;
+        }
+    }
 }
