@@ -80,11 +80,34 @@ const centreStageSchool = {
     img:'centreStageSchool.png',
     name:'Centre Stage School'
 }
+const mackh = {
+    img:'mackh.png',
+    name:'mackh'
+}
+const fierce = {
+    img:'fierce.png',
+    name:'Fierce Theatre School'
+}
+const sva = {
+    img:'sva.png',
+    name:'SVA Musical und Musiktheater'
+}
+const tybas = {
+    img:'tybas.png',
+    name:'Tybas Dance Centre'
+}
+const danceStar = {
+    img:'danceStar.png',
+    name:'Dance Star'
+}
+const mibs = {
+    img:'mibs.png',
+    name:'Munich International Ballet School'
+}
 
 let classes = [
     lipa,
     AberdeenAcademyOfPerformingArts,
-    iab,
     stageworks,
     westside,
     lcpa,
@@ -95,12 +118,20 @@ let classes = [
     mgaAcademy,
     reynoldsPerformingArts,
     cada,
-    birdCollege,
+    centreStageSchool,
     arden,
     hammond,
     icfe,
     phoenix,
     montfort,
-    centreStageSchool,
+    mackh,
+    danceStar,
+    sva,
+    fierce,
+    mibs,
+    birdCollege,
+    iab,
+    tybas,
+
 ];
 export {classes};
