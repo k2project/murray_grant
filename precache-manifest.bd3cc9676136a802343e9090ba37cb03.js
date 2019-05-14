@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/puregym.f087580b.png"
   },
   {
-    "revision": "0c11c03e2583ac3340c3",
-    "url": "/murray_grant/static/css/main.b42b5f6e.chunk.css"
+    "revision": "486db625735391f054f0",
+    "url": "/murray_grant/static/css/main.1cfc8864.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -164,8 +164,8 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/prudential.f648a7c3.png"
   },
   {
-    "revision": "0c11c03e2583ac3340c3",
-    "url": "/murray_grant/static/js/main.39be4a0f.chunk.js"
+    "revision": "486db625735391f054f0",
+    "url": "/murray_grant/static/js/main.26f58fe4.chunk.js"
   },
   {
     "revision": "96190e9febd4b8c79869dddbc9241fbe",
@@ -324,7 +324,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mail_blk.e8edcc69.png"
   },
   {
-    "revision": "65a2c59f6b214e3ea10e7932e99931eb",
+    "revision": "04f05836094742387b6755561990d241",
     "url": "/murray_grant/index.html"
   }
 ];
