@@ -397,6 +397,26 @@ const zannaDont = {
     </div>),
     links:null,
 }
+const tonight = {
+    cls:'tonight',
+    current:false,
+    projectName:{
+        display:false,
+        name:(<div>TONIGHT <br/><small>from  the West End</small>...</div>),
+    },
+    imgs:{
+        bg:'tonight.jpg',
+        logo:null,
+    },
+    role:{
+        title:'Director & Choreographer',
+        subtitle:null,
+    },
+    desc:(<div>
+        <p></p>
+    </div>),
+    links:null,
+}
 
 //=============================================
 //=============================================
@@ -1184,6 +1204,7 @@ const projects=[
     // saturdayNightFever,
     iba,
     zannaDont,
+    // tonight,
     unionSquare,
     nationalMuseumScotland,
     sheraton,
