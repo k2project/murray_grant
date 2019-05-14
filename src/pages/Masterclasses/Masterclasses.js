@@ -81,7 +81,7 @@ const countries=[
         }
     },
 ]
-const t = 4000;
+const t = 2000;
 function Map(){
     useEffect(()=>{
         const location = document.querySelector('.Map__location');
@@ -111,7 +111,7 @@ function runShowLoaction(location){
             text.textContent = country.name;
             text.style.transform = 'scale(1)';
             text.style.opacity = 1;
-            text.style.transition = '1s ease-out';
+            text.style.transition = '.5s .2s ease-out';
             location.style.opacity = 1;
             location.style.left = country.coords.x;
             location.style.top = country.coords.y;
@@ -122,7 +122,7 @@ function runShowLoaction(location){
             text.style.transform = 'scale(0)';
             text.style.opacity = 0;
             text.style.transition = 'none';
-        }, index*t-500);
-        setTimeout(showLoaction,index*t+1000);
+        }, index*t-50);
+        setTimeout(showLoaction,index*t+100);
     })
 }
