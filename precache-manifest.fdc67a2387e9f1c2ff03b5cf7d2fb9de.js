@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "43842974393c732a950cc2719acb53c2",
-    "url": "/murray_grant/static/media/ncl.43842974.png"
+    "revision": "6786722b47a3aecb6be65d651958caa9",
+    "url": "/murray_grant/static/media/murrayfield.6786722b.png"
   },
   {
-    "revision": "d5e6e7f91faef968dcbb",
-    "url": "/murray_grant/static/css/main.668b9c93.chunk.css"
+    "revision": "deba6dd947c3269e6548",
+    "url": "/murray_grant/static/css/main.f6bbabac.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -80,6 +80,10 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/conifox.4a584b0a.jpg"
   },
   {
+    "revision": "34481dd8e05c8ea079b2ee645436eb99",
+    "url": "/murray_grant/static/media/danceStar.34481dd8.png"
+  },
+  {
     "revision": "3cd917c800dbe362d28a27ca09f3d09c",
     "url": "/murray_grant/static/media/deutscheBank.3cd917c8.png"
   },
@@ -94,6 +98,10 @@ self.__precacheManifest = [
   {
     "revision": "84fe39b5cbcdca2514421fe9321687cb",
     "url": "/murray_grant/static/media/fairmontHotels.84fe39b5.png"
+  },
+  {
+    "revision": "036b3d26f8f8944b1c077137c49ea692",
+    "url": "/murray_grant/static/media/fierce.036b3d26.png"
   },
   {
     "revision": "7b332987a623a7726b9d6133b5bcdfdb",
@@ -136,6 +144,10 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/lipa.82b8fb5c.png"
   },
   {
+    "revision": "3573fe1c94b876e4f13f14c5625775aa",
+    "url": "/murray_grant/static/media/mackh.3573fe1c.png"
+  },
+  {
     "revision": "f74eaff2966a6845c4379b46e01525e0",
     "url": "/murray_grant/static/media/masterclass.f74eaff2.png"
   },
@@ -160,6 +172,14 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mgam_white.6d0f636a.png"
   },
   {
+    "revision": "afa41fb8b5a27e8cc3dc010127edca79",
+    "url": "/murray_grant/static/media/mibs.afa41fb8.jpg"
+  },
+  {
+    "revision": "cbf969fb70d858c0d7253a5aaae50969",
+    "url": "/murray_grant/static/media/mibs.cbf969fb.png"
+  },
+  {
     "revision": "1d9f820ca707ce31138c0ac38322c8ef",
     "url": "/murray_grant/static/media/montfort.1d9f820c.png"
   },
@@ -172,12 +192,12 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/montpeliers.3dbe0da0.png"
   },
   {
-    "revision": "6786722b47a3aecb6be65d651958caa9",
-    "url": "/murray_grant/static/media/murrayfield.6786722b.png"
+    "revision": "deba6dd947c3269e6548",
+    "url": "/murray_grant/static/js/main.62b5d486.chunk.js"
   },
   {
-    "revision": "d5e6e7f91faef968dcbb",
-    "url": "/murray_grant/static/js/main.ae30ca14.chunk.js"
+    "revision": "43842974393c732a950cc2719acb53c2",
+    "url": "/murray_grant/static/media/ncl.43842974.png"
   },
   {
     "revision": "5e126f12255b797f7bcdfaa1bb799e1f",
@@ -234,6 +254,14 @@ self.__precacheManifest = [
   {
     "revision": "039bd65cf576f80a864d49ba465a417b",
     "url": "/murray_grant/static/media/thePAexchange.039bd65c.jpg"
+  },
+  {
+    "revision": "59b00d29645892a36d04eca7d3a0e9af",
+    "url": "/murray_grant/static/media/tybas.59b00d29.jpg"
+  },
+  {
+    "revision": "02b58fb587085e9547914a68ab7ed4f4",
+    "url": "/murray_grant/static/media/tybas.02b58fb5.png"
   },
   {
     "revision": "119df42d8586babe16e9faea50b39bc6",
@@ -352,7 +380,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mail_blk.e8edcc69.png"
   },
   {
-    "revision": "5a647da028f068a23d27a7986084bcf0",
+    "revision": "709eb8631d6e577b599752bbf84e6df0",
     "url": "/murray_grant/index.html"
   }
 ];
