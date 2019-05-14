@@ -84,8 +84,9 @@ const countries=[
 const t = 4000;
 function Map(){
     useEffect(()=>{
-        runShowLoaction();
-        setInterval(runShowLoaction,t*countries.length);
+        const location = document.querySelector('.Map__location');
+        runShowLoaction(location);
+        setInterval(()=>{runShowLoaction(location)},t*countries.length);
     })
     return(
         <div className="Map">
@@ -101,12 +102,10 @@ function Map(){
         </div>
     )
 }
-function runShowLoaction(){
-
+function runShowLoaction(location){
+    const circles = location.firstElementChild;
+    const text = location.lastElementChild;
     countries.forEach((country,index,arr)=>{
-        const location = document.querySelector('.Map__location');
-        const circles = location.firstElementChild;
-        const text = location.lastElementChild;
         function showLoaction(){
             circles.style.display = 'block';
             text.textContent = country.name;
