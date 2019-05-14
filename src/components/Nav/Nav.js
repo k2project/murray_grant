@@ -18,12 +18,13 @@ export default function Page (props){
                     link.classList.add('selected');
                 }
             }else{
-                if(link.textContent.toLowerCase().trim() === pathname){
+                let url = link.textContent.toLowerCase().trim() ;
+                if(url === pathname || url === 'murray_grant/'+pathname){
                     link.classList.add('selected');
                 }
             }
         })
-    
+
     })
     return(
         <div className="Nav">
