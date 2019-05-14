@@ -8,20 +8,20 @@ import instagram from './../../media/icons/instagram.png';
 import linkedin from './../../media/icons/linkedin.png';
 export default function Page (props){
     useEffect(()=>{
-        const hash = window.location.hash.slice(1,);
-        const pathname = window.location.pathname.slice(1,);
         const links = document.querySelectorAll('.Nav__pages a');
+        let path = window.location.href
+                    .split('/')
+                    .filter(el=>el.length>1) //get rid of ""
+                    .pop();
+        if(path.includes('#')){
+            path = path.split('#')
+                    .filter(el=>el.length>1)
+                    .pop();
+        }
         links.forEach(link=>{
             link.classList.remove('selected');
-            if(hash){
-                if(link.textContent.toLowerCase().trim() === hash){
-                    link.classList.add('selected');
-                }
-            }else{
-                let url = link.textContent.toLowerCase().trim() ;
-                if(url === pathname || url === 'murray_grant/'+pathname){
-                    link.classList.add('selected');
-                }
+            if(link.textContent.toLowerCase().trim() === path){
+                link.classList.add('selected');
             }
         })
 
