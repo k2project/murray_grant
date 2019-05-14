@@ -97,21 +97,24 @@ function Map(){
                     <span></span>
                     <span></span>
                 </div>
-                <p></p>
+                <div className="Map__text">
+                    <p></p>
+                </div>
             </div>
         </div>
     )
 }
 function runShowLoaction(location){
     const circles = location.firstElementChild;
-    const text = location.lastElementChild;
+    const text = location.querySelector('.Map__text p');
     countries.forEach((country,index,arr)=>{
         function showLoaction(){
             circles.style.display = 'block';
             text.textContent = country.name;
-            text.style.transform = 'scale(1)';
+            // text.style.transform = 'scale(1)';
+            text.style.left = '0%';
             text.style.opacity = 1;
-            text.style.transition = '.5s .2s ease-out';
+            text.style.transition = '.4s ease-out';
             location.style.opacity = 1;
             location.style.left = country.coords.x;
             location.style.top = country.coords.y;
@@ -119,8 +122,9 @@ function runShowLoaction(location){
         setTimeout(()=>{
             circles.style.display = 'none';
             location.style.opacity = 0;
-            text.style.transform = 'scale(0)';
+            // text.style.transform = 'scale(0)';
             text.style.opacity = 0;
+            text.style.left = '-5rem';
             text.style.transition = 'none';
         }, index*t-50);
         setTimeout(showLoaction,index*t+100);

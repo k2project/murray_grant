@@ -60,6 +60,26 @@ const mgaAcademy = {
     img:'mgaAcademy_white.png',
     name:'MGA Academy'
 }
+const icfe = {
+    img:'icfe.png',
+    name:'Inchicore College of Further Education'
+}
+const cada = {
+    img:'cada.png',
+    name:'Cada Performing Arts'
+}
+const phoenix = {
+    img:'phoenix.png',
+    name:'Phoenix Performing Arts'
+}
+const montfort = {
+    img:'montfort.png',
+    name:'Montfort College of Performing Arts'
+}
+const centreStageSchool = {
+    img:'centreStageSchool.png',
+    name:'Centre Stage School'
+}
 
 let classes = [
     lipa,
@@ -72,10 +92,15 @@ let classes = [
     urdangAcademy,
     pwtw,
     ncl,
-    reynoldsPerformingArts,
-    arden,
-    birdCollege,
     mgaAcademy,
+    reynoldsPerformingArts,
+    cada,
+    birdCollege,
+    arden,
     hammond,
+    icfe,
+    phoenix,
+    montfort,
+    centreStageSchool,
 ];
 export {classes};
