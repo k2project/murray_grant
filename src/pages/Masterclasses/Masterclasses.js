@@ -48,8 +48,8 @@ const countries=[
     {
         name:'Cyprus',
         coords:{
-            x:'52%',
-            y:'45%'
+            x:'55.8%',
+            y:'46%'
         }
     },
     {
@@ -111,6 +111,7 @@ function runShowLoaction(location){
             text.textContent = country.name;
             text.style.transform = 'scale(1)';
             text.style.opacity = 1;
+            text.style.transition = '1s ease-out';
             location.style.opacity = 1;
             location.style.left = country.coords.x;
             location.style.top = country.coords.y;
@@ -120,6 +121,7 @@ function runShowLoaction(location){
             location.style.opacity = 0;
             text.style.transform = 'scale(0)';
             text.style.opacity = 0;
+            text.style.transition = 'none';
         }, index*t-500);
         setTimeout(showLoaction,index*t+1000);
     })
