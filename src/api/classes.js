@@ -1,5 +1,9 @@
 import React from 'react';
 
+const masterclass1 = {
+    img:'logoMasterclass1.png',
+    name:'masterclass'
+}
 const lipa = {
     img:'lipa.png',
     name:'The Liverpool Intitute For Performing Arts'
@@ -104,8 +108,25 @@ const mibs = {
     img:'mibs.png',
     name:'Munich International Ballet School'
 }
+const dancebase = {
+    img:'dancebase.png',
+    name:'Edinburgh Dancebase National Center For Dance'
+}
+const harnosands = {
+    img:'harnosands.png',
+    name:'Harnosands Folkhogskola'
+}
+const gislavedsGymnasium = {
+    img:'gislavedsGymnasium.png',
+    name:'Gislaveds Gymnasium'
+}
+const efbSchool = {
+    img:'efbSchool.png',
+    name:'Edinburgh Festival Ballet School'
+}
 
 let classes = [
+    masterclass1,
     lipa,
     AberdeenAcademyOfPerformingArts,
     stageworks,
@@ -119,19 +140,23 @@ let classes = [
     reynoldsPerformingArts,
     cada,
     centreStageSchool,
-    arden,
     hammond,
-    icfe,
+    arden,
     phoenix,
-    montfort,
     mackh,
+    iab,
     danceStar,
     sva,
     fierce,
     mibs,
     birdCollege,
-    iab,
+    efbSchool,
+    dancebase,
+    harnosands,
     tybas,
+    gislavedsGymnasium,
+    montfort,
+    icfe,
 
 ];
 export {classes};
