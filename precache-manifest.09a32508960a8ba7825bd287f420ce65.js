@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cbf969fb70d858c0d7253a5aaae50969",
-    "url": "/murray_grant/static/media/mibs.cbf969fb.png"
+    "revision": "0ab702d1dec27258b3971e2f0fe0d3a9",
+    "url": "/murray_grant/static/media/montfort2.0ab702d1.png"
   },
   {
-    "revision": "b13517ccc0f780e558cb",
-    "url": "/murray_grant/static/css/main.66aec688.chunk.css"
+    "revision": "3595aba6753847e7eaeb",
+    "url": "/murray_grant/static/css/main.3d6bdc7b.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -204,16 +204,16 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mibs.afa41fb8.jpg"
   },
   {
-    "revision": "b13517ccc0f780e558cb",
-    "url": "/murray_grant/static/js/main.136a7a64.chunk.js"
+    "revision": "cbf969fb70d858c0d7253a5aaae50969",
+    "url": "/murray_grant/static/media/mibs.cbf969fb.png"
   },
   {
     "revision": "1d9f820ca707ce31138c0ac38322c8ef",
     "url": "/murray_grant/static/media/montfort.1d9f820c.png"
   },
   {
-    "revision": "0ab702d1dec27258b3971e2f0fe0d3a9",
-    "url": "/murray_grant/static/media/montfort2.0ab702d1.png"
+    "revision": "3595aba6753847e7eaeb",
+    "url": "/murray_grant/static/js/main.a04e3531.chunk.js"
   },
   {
     "revision": "3dbe0da0768118aa04b7485e1e542a11",
@@ -300,6 +300,10 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/westside.388a02d0.png"
   },
   {
+    "revision": "1d46bee38e629d3f0c1c2bb21b22e43d",
+    "url": "/murray_grant/static/media/accessAllAreasOnKEllis.1d46bee3.jpg"
+  },
+  {
     "revision": "00e50b5f0d3c9caab83d874f27ec58e2",
     "url": "/murray_grant/static/media/aurora.00e50b5f.jpg"
   },
@@ -312,8 +316,20 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/dublinLiveOnMurrayChoreographer.00180396.jpg"
   },
   {
+    "revision": "4fc7da394fc0ab4b3414287140d17a5b",
+    "url": "/murray_grant/static/media/edinburghGuideOnTen.4fc7da39.jpg"
+  },
+  {
     "revision": "282bc7145a44f9c4746b261c9bdd1f3e",
     "url": "/murray_grant/static/media/edinburghReporterOnTheCoreLaunch.282bc714.jpg"
+  },
+  {
+    "revision": "2dc4a4db59280e8846e4ca557516b56d",
+    "url": "/murray_grant/static/media/europe.2dc4a4db.jpg"
+  },
+  {
+    "revision": "3437ebeb1d46b2df91e6090f7bbf4046",
+    "url": "/murray_grant/static/media/europe.3437ebeb.png"
   },
   {
     "revision": "834e78ccb3e2a3d13f3b494ae84508ed",
@@ -408,7 +424,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mail_blk.e8edcc69.png"
   },
   {
-    "revision": "2f5d26c81f4d686799782a3f161a771b",
+    "revision": "58533374f422d6dc082c1c2ac3a5fe49",
     "url": "/murray_grant/index.html"
   }
 ];
