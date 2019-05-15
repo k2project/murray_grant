@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1d9f820ca707ce31138c0ac38322c8ef",
-    "url": "/murray_grant/static/media/montfort.1d9f820c.png"
+    "revision": "0ab702d1dec27258b3971e2f0fe0d3a9",
+    "url": "/murray_grant/static/media/montfort2.0ab702d1.png"
   },
   {
-    "revision": "8879fed6ca7e1c7620b3",
-    "url": "/murray_grant/static/css/main.a7a0237c.chunk.css"
+    "revision": "6352eeee5a5761a69e6f",
+    "url": "/murray_grant/static/css/main.bbebca6f.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -212,12 +212,12 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mibs.cbf969fb.png"
   },
   {
-    "revision": "8879fed6ca7e1c7620b3",
-    "url": "/murray_grant/static/js/main.89a2ddb7.chunk.js"
+    "revision": "1d9f820ca707ce31138c0ac38322c8ef",
+    "url": "/murray_grant/static/media/montfort.1d9f820c.png"
   },
   {
-    "revision": "0ab702d1dec27258b3971e2f0fe0d3a9",
-    "url": "/murray_grant/static/media/montfort2.0ab702d1.png"
+    "revision": "6352eeee5a5761a69e6f",
+    "url": "/murray_grant/static/js/main.753326fe.chunk.js"
   },
   {
     "revision": "3dbe0da0768118aa04b7485e1e542a11",
@@ -304,6 +304,10 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/westside.388a02d0.png"
   },
   {
+    "revision": "8b232aec666e36db179d72e1c10f3d1d",
+    "url": "/murray_grant/static/media/AEonFame.8b232aec.jpg"
+  },
+  {
     "revision": "1d46bee38e629d3f0c1c2bb21b22e43d",
     "url": "/murray_grant/static/media/accessAllAreasOnKEllis.1d46bee3.jpg"
   },
@@ -354,6 +358,10 @@ self.__precacheManifest = [
   {
     "revision": "78c3ef2d540f2af2861ca568870a95ff",
     "url": "/murray_grant/static/media/musicalStarNight.78c3ef2d.jpg"
+  },
+  {
+    "revision": "45cab42caa896915fc3d57af3bfdd31a",
+    "url": "/murray_grant/static/media/newsAndStar.45cab42c.jpg"
   },
   {
     "revision": "c59fc5041ccff71b2bf07077bd5c412e",
@@ -420,7 +428,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mail_blk.e8edcc69.png"
   },
   {
-    "revision": "0e67ac7ac870a52970457989761f6962",
+    "revision": "fa1959732cf3952746e9f20bf9ece9ff",
     "url": "/murray_grant/index.html"
   }
 ];
