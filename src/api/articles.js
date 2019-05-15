@@ -137,6 +137,41 @@ const AEonFreeCourse = {
 
     </div>),
 }
+const AEonFame = {
+    display:false,
+    cls:'AEonFame',
+    title:(<div>Fame – The Musical <br/><small>★★★★★   Electrifying <br/><small>King’s Theatre: Fri 21 – Sat 22 July</small></small></div>),
+    subtitle:'Edinburgh youth group The Beyond Broadway Experience introduce the new intake of students to the King’s stage in this electrifying performance of the classic musical.',
+    author:'Sarah Moyes',
+    source:'AE | alledinburghtheatre.com',
+    date:'July 22, 2017',
+    link:'http://www.alledinburghtheatre.com/fame-the-musical-beyond-broadway-experience-review-2017/',
+    img:{
+        path:'AEonFame.jpg',
+        caption:(<span>The Cast of Fame.<br/><small>Photo: MGA.</small></span>)
+    },
+    text:(<div className="article__text">
+        <p>Fame The Musical, based on the 1980’s film Fame, tells the story of a group of young people studying at one of America’s top performing arts schools in New York.</p>
+        <p>The show opens with the students auditioning to get into PA, the city’s High School of Performing Arts, but this production has a Scottish twist as one of the students is playing the bagpipes as his selected audition piece as he hopes to make it into the famous school.</p>
+        <p>The choice of musical for this year’s Beyond Broadway Experience show couldn’t be more fitting for a group of young people interested in the world of the arts.</p>
+        <p>It’s during the show’s opening number Hard Work that the main cast are introduced. Adam Craig has perfect comic timing as Joe, and has the whole audience laughing during Can’t Keep It Down as he attempts to make his affections known to Carmen.</p>
+        <p>Caitlin Tipping gives a superb performance as Carmen, the fame-obsessed student whose tragic downfall weaves through the show. Carmen is also the affection of Schlomo, played by Gareth Williams, who gives a touching performance, especially on Bring on Tomorrow, a song performed in Carmen’s memory.</p>
+        <p><b>perfect pairing</b></p>
+        <p>Reuben Woolard and Melissa McNaught are a perfect pairing as students Nick and Serena. They work well together, especially in the second half of the show when their relationship grows. McNaught’s rendition of Let’s Play a Love Scene is simply stunning – she captivates the audience to the point where you could hear a pin drop.</p>
+        <p>The singing talent of the cast throughout the show really is first class and there’s not a note out of place. Megan Forbes and Charmain Leitch, who play teachers Miss Bell and Esther Sherman, give a stunning performance of Teacher’s Argument, and Sarah Kerr hits some incredibly high notes during Mabel’s Prayer giving her one of the biggest cheers of the night.</p>
+        <p>Rory Macleod gives a fantastic performance as Tyrone, a hip hop dancer who struggles with the academic side of school. One of the dance highlights of the show is Dancin’ on the Sidewalk which sees the entire ensemble dancing with Tyrone commanding the stage with his every move. The choreography, by co-founder of MGA Murray Grant and Louise Ferrier, is clever, original and fun. There are ballet numbers, contemporary moves and some of the cast even do backflips across the stage.</p>
+        <p>The Beyond Broadway Experience has really tapped into some wonderful talent in his production. As the show comes to an end we’re treated to the classic song Fame we’ve been waiting for as the yellow taxi appears in the middle of the stage and the cast burst into song.</p>
+        <p>An utterly brilliant production from a hugely talented cast. There are many times throughout the show when you forget this is a youth performance, a true testament to the calibre of the young people on the stage.</p>
+        <p>
+            <small>
+                <b>Running Time: two hours 30 minutes (including one interval)</b><br/>
+                <i>King’s Theatre, 2 Leven Street EH3 9LQ.</i><br/>
+                Friday 21/Saturday 22 July 2017. <br/> Evenings: 7.30pm; Saturday matinee: 2.30pm. <br/> Tickets and details: www.edtheatres.com/fame
+            </small>
+        </p>
+
+    </div>),
+}
 const edinburghGuideOnTen = {
     display:false,
     cls:'edinburghGuideOnTen',
@@ -204,14 +239,82 @@ const accessAllAreasOnKEllis = {
 
     </div>),
 }
+const alloaHillfootsAdvertsier = {
+    display:false,
+    cls:'alloaHillfootsAdvertsier',
+    title:'Budding male performers in Clackmannanshire can take part in Boys’ Scholarship Week',
+    subtitle:'BUDDING male performers from Clackmannanshire are being invited to take part in a summer programme. ',
+    author:'Ashleigh Burns',
+    source:'Alloa & Hillfoots Advertsier',
+    date:'June 13, 2017',
+    link:'http://www.alloaadvertiser.com/news/15343886.budding-male-performers-in-clackmannanshire-can-take-part-in-boys-scholarship-week/',
+    img:{
+        path:'stageOnMGAFundation.jpg',
+        caption:'Murray Grant'
+    },
+    text:(<div className="article__text">
+
+        <p>They can enjoy a week of free classes, workshops and question-and-answer sessions at The MGA Academy of Performing Arts in Edinburgh, during its Boys’ Scholarship Week. </p>
+        <p>Doors will be thrown open to boys aged 14 and older with an interest in pursuing a career in performing arts from July 24-28, as part of a unique initiative to encourage more males into the industry. </p>
+        <p>Those who attend will be given the opportunity to have fun while learning some tricks of the trade from guest tutors and staff from The MGA Academy, which recently became the first full-time professional training academy in Scotland to be awarded accreditation by CDET, the UK’s quality assurance and membership body for the professional dance, drama and musical theatre industries. </p>
+        <p>International choreographer Murray Grant co-founded The MGA Academy with Andrew Gowland in 2005 to provide a platform for aspiring performers to remain in Scotland, while studying at a level equivalent to prestigious London colleges.</p>
+        <p>He has previously performed in professional musical theatre, opera, and cabaret productions in Los Angeles, New York, Sydney and Vienna. </p>
+        <p>Murray said: "I wanted to organise a project like this to give boys the opportunity to come along and meet others that share the same interests whilst learning more about acting, dancing and singing. </p>
+        <p>"Many of our male graduates have gone onto great things, with Thomas Doherty now working for Disney and Fergal McGoff performing in London's West End. </p>
+        <p>"We’d like to encourage more boys to consider pursuing careers in the industry. </p>
+        <p>"When I was growing up, I was always the only boy in drama classes and I wish opportunities like Boys’ Scholarship Week had been available then. </p>
+        <p>"It is completely free to attend but places are limited and must be booked in advance." </p>
+        <p>Those interested in attending Boys’ Scholarship Week at The MGA Academy should call 0131 466 9392 or email murray@themgaacademy.com </p>
+
+    </div>),
+}
+const newsAndStar = {
+    display:false,
+    cls:'newsAndStar',
+    title:'Performers get visit from top choreographer',
+    subtitle:'A group of young performers have been given a unique insight into the exciting world of performing arts, thanks to a visit from international choreographer Murray Grant. ',
+    author:'Pam McClounie',
+    source:'Alloa & Hillfoots Advertsier',
+    date:'January 28, 2018',
+    link:'https://www.newsandstar.co.uk/news/16745224.performers-get-visit-from-top-choreographer/',
+    img:{
+        path:'newsAndStar.jpg',
+        caption:'Razzamataz students at the Murray Grant masterclass'
+    },
+    text:(<div className="article__text">
+
+        <p>Murray, one of the founders of The MGA Academy of Performing Arts in Edinburgh, ran a masterclass at Razzamataz Theatre school in Carlisle to inspire the next generation of young performers. </p>
+        <p>Murray has performed as a dancer all over the world, most notably in Los Angeles, New York, San Francisco, Auckland, Chicago, Sydney and Vienna. </p>
+        <p>He has performed in musical theatre shows such as The Merry Widow, Grease, Jesus Christ Superstar and Saturday Night Fever. </p>
+        <p>In addition, he has also directed and choreographed the likes of Adam Garcia, Ruthie Henshall, Kerry Ellis, Christina Bianco, Louise Dearman, and Jon Lee. </p>
+        <p>To give students a chance to understand what to expect and how to successfully audition for a performing arts college, Murray created a workshop that gives them a real understanding of the process involved. </p>
+        <p>"As a performer, choreographer and teacher, it is a real privilege to meet and work with the next generation of performers," he said. </p>
+        <p>"I’ve been really impressed with the training that the students receive at Razzamataz. </p>
+        <p>"Learning the three disciplines of singing, dancing and acting in both musical theatre and commercial styles, will stand them in good stead when auditioning for colleges." </p>
+        <p>In response to growing demand from students, Razzamataz launched a class designed to support students who wish to pursue a professional career within the performing arts industry. </p>
+        <p>Razz Project Intense allows staff to teach in the specialist areas of dance to help build a strong technical skill base to equip the Razzamataz students with the correct guidance, skills and confidence to be better prepared for professional vocational college auditions. </p>
+        <p>One of the many benefits from the classes are the workshops with industry experts, allowing the students to get a real feel for what it means to work as a professional performer.</p>
+        <p>Debbie Mitchell, principal of Razzamataz Carlisle, said: "All the guest teachers who come to put on workshops are very generous with their time and give the students the opportunity to ask questions about working in the industry. </p>
+        <p>“Not only does this give our students practical advice, but it is also very inspirational to have this level of support available." </p>
+        <p>Murray adds: "The workshop really stretched the students and definitely gave them an idea about what we do at The MGA Academy every day. </p>
+        <p>"The level of commitment and discipline from the students at Razzamataz means that whatever they choose to go on and do, they will have the right attitude to be successful." </p>
+        <p>The MGA Academy of Performing Arts in Edinburgh currently runs three-year Musical Theatre, Dance and Acting Diplomas. </p>
+        <p>It is the only CDET-accredited school in Scotland and is currently accepting applications for places on full- time courses starting in September. </p>
+        <p>Auditions will take place in Newcastle (February 25), Edinburgh (March 18), and Dublin (March 25). </p>
+
+    </div>),
+}
 
 let articles = [
     scotsmanOnMGAAcademy,
     edinburghReporterOnTheCoreLaunch,
     stagenOnMGAFundation,
     dublinLiveOnMurrayChoreographer,
-    edinburghGuideOnTen,
+    newsAndStar,
+    AEonFame,
     AEonFreeCourse,
+    alloaHillfootsAdvertsier,
+    edinburghGuideOnTen,
     accessAllAreasOnKEllis,
 
 ];
