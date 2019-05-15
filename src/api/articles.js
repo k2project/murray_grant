@@ -172,6 +172,97 @@ const AEonFame = {
 
     </div>),
 }
+const AEonBroadwayBound = {
+    display:false,
+    cls:'AEonBroadwayBound',
+    title:(<div>Broadway Bound<br/><small>★★★★  All that Jazz <br/><small>King’s Theatre: Thurs 2 April 2015</small></small></div>),
+    subtitle:'Bright and crisp and even, the aspirations of the dancers on stage at the King’s on Thursday night shone through their performances. These youngsters were Broadway Bound in more ways than one.',
+    author:'Thom Dibdin',
+    source:'AE | alledinburghtheatre.com',
+    date:'April 3, 2015',
+    link:'http://www.alledinburghtheatre.com/broadway-bound-review/',
+    img:{
+        path:'AEonBroadwayBound.jpg',
+        caption:(<span>Singing in the Rain. <br/><small>Photo: Andrew Gowland.</small></span>)
+    },
+    text:(<div className="article__text">
+        <p>From the <i>Singing in the Rain</i> overture to the <i>Priscilla Queen of the Desert</i> curtain of <i>Colour My World</i>, this was a show which sought both to show off its performers’ abilities and entertain its audience.</p>
+        <p>It achieved its aim on both counts thanks to smart construction from creative director Murray Grant with his team of choreographers led by Senay Taormina.</p>
+        <p>On stage were nearly 100 full-time dance and musical theatre students from the MGA Academy – along with a couple of dozen youngsters from the part-time school.</p>
+        <p>They delivered as entertaining an evening as any variety style dance production around. It was not so much a particular number which provided the highlight, although there were several standout moments, but the crispness with which those numbers were delivered.</p>
+        <p>It was the snap and crackle you get when a large company is working both in perfect unison and with unfettered enthusiasm. It’s a grand enough sight to see in a small ensemble, but when you have almost 100 performers hitting their points in perfect synchronisation, it is jaw-droppingly good.</p>
+        <p><b>more acrobatic than anticipated</b></p>
+        <p>In a night which swung from old-style hoofing to Disney numbers and hot modern musicals, the first half set off with dance to the fore. The backing music was taped, but the vocals were delivered live.</p>
+        <p>It was all good stuff, with a spot of <i>Hand Jive from Grease</i>, some leg-warming <i>Fame</i>, a bit of <i>Footloose</i> and then <i>The Queen of the Night from The Bodyguard</i>. Perhaps a bit more acrobatic than anticipated, with all sorts of flips and spins, but what you might expect, crisply delivered with a sense of the music.</p>
+        <p>The part-time performers from the Fierce Theatre School made a decent fist of <i>Electricity from Billy Elliot</i> and, in terms of the structure of the evening as opposed to the performances, it all seemed to be tootling along at a strong and steady level.</p>
+        <p>Then Tom Mullins hit the rear of the stage singing the <i>Kiss Me Kate number: Too Darn Hot.</i> And the evening sizzled up into another level. It wasn’t just the saucy outfits of the dancers, but there was a zip to their choreography which allowed them to go from performing a routine to telling a story.</p>
+        <p>But it was with <i>Dance With the Devil from The Witches of Eastwick</i> that the storytelling really took off. Thomas Doherty danced and sang, knowing and lascivious as the Devil, with Blair Gibson as the naive busboy whose eyes are opened to the ways of woman kind.</p>
+        <p>The second half set off with a beautifully judged version of <i>Supercalifragilisticexpialidocious from Mary Poppins</i>. Amy Johnston as Poppins stepping down on to the stage, splitting the ensemble and lifting her skirts to perform a little knees-up number. Here the timing was to perfection, with Johnston leading the forty or so strong ensemble spelling out the title with various hand signals. Brilliant.</p>
+        <p>There was more athleticism from Thomas Doherty as <i>Aladdin</i>, being chased by the cops in <i>One Jump Ahead</i>. Then there was <i>Trashing the Camp from Tarzan</i>, a number which can only be described as zany, thanks to the costume department which was not quite as appropriate as it might have been</p>
+        <p>At this point in a musical, a little way into the second half, it is customary for the writers to put in a romantic interlude. Murray Grant chose to let rip with a trio of numbers, each of which in their way would have brought the house down.</p>
+        <p>First Georgia Fordyce stepped out front to deliver the vocals for <i>All That Jazz from Chicago</i>. She did so while commanding attention from the front of the complete full-time ensemble, delivering the number with a breathy, wisp of vocals that hinted at cold gin, hot pianos and the promise of much more to come.</p>
+        <p>And that was the Sally Bowles number <i>Mein Herr from Cabaret</i>. It was deliciously sung by Rose Hayton and danced by the female ensemble with a salacious attention to detail that didn’t exactly stop at the point of being suggestive.</p>
+        <p>And then, trimming back the performers on stage, Elly Jamieson and Connor McKay gave an intense version of the <i>Dream Ballet sequence from Carousel</i>. Jamieson picked up and created her lonely, friable character with a real understanding, while McKay give his charmer character a sense of dark inevitability.</p>
+        <p>Cutting the number into <i>You’ll Never Walk Alone</i> worked a charm, and allowed Natasha Barrie to step forward to lead the vocals. It’s one of several numbers she delivered and it certainly suited her strong, rounded voice and ability to hold a tune.</p>
+        <p>Of course the business they call show is a fickle one. A professional calling will not be on the cards for every MGA Academy graduate.</p>
+        <p>But Thursday night’s performances show that, should they have the grit to put in the hard work, then their skills will be more than useful to the professional casting directors who people the touring musical shows with dancers and singers.</p>
+
+        <p>
+            <small>
+                <b>Running time 2 hours 20 minutes (including one interval)</b><br/>
+                <i>King’s Theatre, 2 Leven Street EH3 9LQ.</i><br/>
+                Thursday 2 April 2015 only (run ended).
+            </small>
+        </p>
+
+    </div>),
+}
+const AEonAdamsFamily = {
+    display:false,
+    cls:'AEonAdamsFamily',
+    title:(<div>The Addams Family<br/><small>★★★★  Addams fine show <br/><small>King’s Theatre: Friday 27 – Saturday 28 June</small></small></div>),
+    subtitle:'They’re creepy and they’re kooky, mysterious and spooky, and they’re altogether on stage at the King’s Theatre. ',
+    author:'Martin Gray',
+    source:'AE | alledinburghtheatre.com',
+    date:'June 28, 2014',
+    link:'http://www.alledinburghtheatre.com/the-addams-family/',
+    img:{
+        path:'AEonAdamsFamily.jpg',
+        caption:(<span>The Addams Family in the Graveyard.<br/><small>Photo: Andrew Gowland.</small></span>)
+    },
+    text:(<div className="article__text">
+        <p>For three performances only, MGA Academy students brought the <i>Addams Family</i> to life – or perhaps death – in the Scottish premiere of the award-wining Broadway musical.</p>
+        <p>As we rejoin the TV and film favourites, torturing tween Wednesday is now a young woman in love with Lucas, a student she’s met while wandering Central Park.</p>
+        <p>Sounds normal enough, but at the time, weird Wednesday was hunting with her crossbow. Now she’s invited Lucas’ parents – regular folk from Ohio – for dinner to meet her family. And if the parents get along, they’ll announce their engagement.</p>
+        <p>Cue a quiver of complications: Wednesday tells dad Gomez of the plan, forcing him to keep a secret from wife Morticia for the first time; Morticia immediately realises Gomez is keeping something from her and hates it; little brother Pugsley fears he’ll miss out on torture sessions if Wednesday leaves, so steals a magic potion from his witchy Grandma; Lucas’ dad, Mal, thinks the Addams a bunch of crazy Spaniards, while mum Alice is a little off herself, speaking in rhyme much of the time.</p>
+        <p>Even before the show officially starts, the audience knows this is something different, as a bunch of glamorous ghouls – Elvis, Marilyn, Jack Sparrow and more – mingle. They settle into the auditorium boxes and become the show’s chorus, supporting, and occasionally interacting with, the main cast.</p>
+        <p><b>“a thoroughly modern monstress…”</b></p>
+        <p>And their first job is to snap their fingers, as the Sixties TV show theme segues into opening number <i>When You’re an Addams</i>, a big, bold song and dance routine for the entire onstage company. MGA’s students ace it, dazzling with their splendid singing and precision dancing.</p>
+        <p>And that’s how it is for the whole production, with number after number showcasing the talents of the cast, but always serving the story. And no one tries to scene steal – the ensemble members support one another superbly. Musical director Simon Hanson’s band provides perfect accompaniment, including a few tiny, witty additions that enhance the original score.</p>
+        <p>In order to give as many students a chance to perform as possible, some roles were dual-cast, meaning the Saturday Addamses weren’t necessarily the Friday Addamses.</p>
+        <p>Such as Wednesday, played on Friday by Rebecca Gilhooley as a thoroughly modern monstress who loves her fearsomely funny family, but knows there’s a whole world outside the Addams’ gloomy mansion that she just might like too. Gilhooley is the perfect Goth next door, big voiced with a nice line in comedy and the acting chops to convey Wednesday’s conflicted emotions.</p>
+        <p>She’s matched by, well, everyone – there wasn’t a mediocre turn in the show, from George Fanzio’s tango-mad Gomez to Abigail Stenhouse’s sexy, formidable Morticia via Kieran Wynne’s gruff, exceedingly tall Lurch. Amy-Beth Littlejohn’s unpredictable Grandma is a delight, a mad old crone with a nice line in wisdom; A McColl’s Pugsley is the perfect outcast, a nasty brat who nevertheless evokes sympathy. And as lightbulb-loving Uncle Fester, whose romantic heart is the fulcrum on which the show turns, Peter Vint is suitably electric.</p>
+        <p>Thomas Doherty, Alex Booth and Rhona Hay are similarly perfectly cast as supposed normals Lucas, Mal and Alice, holding their own against the more obviously eye-catching Addamses.</p>
+        <p>You may not know Andrew Lippa’s songs going in, but by the end of the show you’ll be singing the likes of <i>Crazier Than You, One Normal Night, Happy Sad and Full Disclosure</i>, numbers which are funny where funny is needed, poignant if that’s what’s required and endlessly catchy.</p>
+        <p>In between the production numbers, Marshall Brickman and Rick Elice flesh out Charles Addams’ amusingly one-note characters in a story of love and death that drips with great gags. Director Andrew Gowland wrangles his massive cast with panache, using the full extent of the King’s playing space to recreate the Addams’ spooky world of creatures and crypts.</p>
+        <p>Murray Grant’s choreography is sharply economic, there’s plenty going on but never so much that movement becomes migraine. Vocal coach Marcella Macdonald is obviously – sorry, audibly – fantastic at her job, CJ Hill’s costumes are a treat for the eyes, while Gordon Pyper’s moody sets enable a pacy production.</p>
+        <p>The whole team deserves massive credit for a job brilliantly done, and I only wish I’d seen the show again to compare cast members. Having attended several MGA productions, I’m pretty sure <i>The Addams Family Take Two</i> would be differently played, but equally good.</p>
+        <p>While the current cast will go on to great things, MGA should keep this production in its repertoire to dust off in future years for a longer run. Then again, given we’re talking the <i>Addams Family</i>, adding more dust might make it even better.</p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <p>
+            <small>
+                <b>Running Time 2hrs 40mins (including interval )</b><br/>
+                <i>King’s Theatre, 2 Leven Street EH3 9LQ</i><br/>
+                Friday 27 – Saturday 28 June 2014 <br/>
+                Run ended.
+            </small>
+        </p>
+
+    </div>),
+}
 const edinburghGuideOnTen = {
     display:false,
     cls:'edinburghGuideOnTen',
@@ -315,6 +406,8 @@ let articles = [
     AEonFreeCourse,
     alloaHillfootsAdvertsier,
     edinburghGuideOnTen,
+    AEonBroadwayBound,
+    AEonAdamsFamily,
     accessAllAreasOnKEllis,
 
 ];
