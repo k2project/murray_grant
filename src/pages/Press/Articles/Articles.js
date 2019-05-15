@@ -7,6 +7,7 @@ export default function Articles (){
     const [displayAllArticles, setDisplayAllArticles] = useState(false);
 
     function showOtherArticles(e){
+        // e.target.scrollIntoView();
         e.target.remove();
         setDisplayAllArticles(true);
     }
@@ -18,7 +19,7 @@ export default function Articles (){
         <div className="Articles">
             {articlesFeaturedList}
             <div className="btn" onClick={e=>showOtherArticles(e)}>More Press</div>
-            {displayAllArticles && <div>
+            {displayAllArticles && <div className="Articles_others">
                 {articlesOtherList}
             </div>}
         </div>
@@ -37,7 +38,8 @@ function displayArticle(article){
             <div className="article__heading">
                 <div className="article__top">
                     <div className="article__title font_themed">{title}</div>
-                    <p>by <b>{author}</b> — Posted in <b>{source}</b> on <b>{date}</b></p>
+                    <p>by <b>{author}</b> — Posted in <b>{source}</b>
+                    {date && <span> on <b>{date}</b></span>}</p>
                 </div>
                 <p className="article__subtitle">{subtitle}</p>
                 <div className="btn" onClick={e=>displayArticleText(e)}> Read more</div>
@@ -56,12 +58,19 @@ function displayArticle(article){
 
 }
 function displayArticleText(e){
-    e.target.style.display = 'none';
-    e.target.closest('article').classList.add('open');
+    const article = e.target.closest('article');
+    const articles = article.parentElement.parentElement.querySelectorAll('article');
+    articles.forEach(a=>{
+        a.classList.remove('open');
+        if(a === article){
+            article.classList.add('open');
+            article.scrollIntoView();
+        }
+    })
 }
 function closeArticleText(e){
     const article = e.target.closest('article');
     article.classList.remove('open');
-    article.querySelector('.btn').style.display = 'block';
-    article.scrollIntoView({block: "center"});
+    // article.querySelector('.btn').style.display = 'block';
+    article.scrollIntoView();
 }

@@ -109,12 +109,111 @@ const edinburghReporterOnTheCoreLaunch = {
 
     </div>),
 }
+const AEonFreeCourse = {
+    display:false,
+    cls:'AEonFreeCourse',
+    title:(<div>Free course at MGA <br/><small>Free course for young male performers</small></div>),
+    subtitle:'The MGA Academy of Performing Arts is inviting budding young male performers for a week of free classes, workshops and question-and-answer sessions.',
+    author:'Thom Dibdin',
+    source:'AE | alledinburghtheatre.com',
+    date:'July 17, 2017',
+    link:'http://www.alledinburghtheatre.com/free-course-for-young-male-performers-at-mga/',
+    img:{
+        path:'stageOnMGAFundation.jpg',
+        caption:'Murray Grant, co-founder of MGA Academy'
+    },
+    text:(<div className="article__text">
+        <p>The Balgreen-based academy is holding Boys Scholarship Week to encourage more boys into the industry. It is aimed at those aged 14 and over and will be held over five days, Monday 24 to Friday 28 July, 2018.</p>
+        <p>Those who attend Boys’ Scholarship Week will be given the opportunity to have fun while learning some tricks of the trade from guest tutors and staff from The MGA Academy.</p>
+        <p>MGA recently became the first full-time professional training academy in Scotland to be awarded accreditation by CDET, the UK’s quality assurance and membership body for the professional dance, drama and musical theatre industries.</p>
+        <p>It was co-founded in 2005 by choreographer Murray Grant and director Andrew Gowland to provide a platform for aspiring performers to remain in Scotland while studying at a level equivalent to prestigious London colleges.</p>
+        <p>Murray Grant says: “I wanted to organise a project like this to give boys the opportunity to come along and meet others that share the same interests whilst learning more about acting, dancing and singing.”</p>
+        <p><b>Thriving careers</b></p>
+        <p>Many of MGA’s male graduates have gone on to secure thriving careers in the commercial performing arts. Thomas Doherty is now working for Disney and Fergal McGoff is performing in London’s West End.</p>
+        <p>Grant added: “We’d like to encourage more boys to consider pursuing careers in the industry.</p>
+        <p>“When I was growing up, I was always the only boy in drama classes and I wish opportunities like Boys’ Scholarship Week had been available then.”</p>
+        <p>The week is completely free to attend, but places are limited and must be booked in advance.</p>
+        <p>Those interested in attending Boys’ Scholarship Week at The MGA Academy should call 0131 466 9392 or email <i>murray@themgaacademy.com.</i> </p>
+
+    </div>),
+}
+const edinburghGuideOnTen = {
+    display:false,
+    cls:'edinburghGuideOnTen',
+    title:'TEN, King\'s Theatre, Review',
+    subtitle:'The MGA Academy of Performing Arts in Edinburgh was founded by Murray Grant and Andrew Gowland in 2005, developing from small-scale workshops into a renowned College and “Centre of Excellence”, to study for a professional career in musical theatre, dance and drama. ',
+    author:'Vivien Devlin',
+    source:'EdinburghGuide.com',
+    date:'June 24, 2016',
+    link:'https://www.edinburghguide.com/reviews/musicals/tenkingstheatrereview-16909',
+    img:{
+        path:'edinburghGuideOnTen.jpg',
+        caption:''
+    },
+    text:(<div className="article__text">
+        <div className="article__box">
+            <div className="article__box_title">Show Details</div>
+            <div className="article__box_body">
+                <p><b>Venue:</b> King's Theatre</p>
+                <p><b>Company:</b>  Murray Grant (Creative Director), Marcella Macdonald (Musical director/choreographer), Gerard Bentall (Musical Director), Neil Metcalfe (Musical director), Senay Taormina (Choreographer), Andrew Gowland (Creative Consultant), Regan Shepherd (Choreographer, Marry the Night). MM Sound and Lighting.  </p>
+                <p><b>Production:</b>  The MGA Academy of Performing Arts </p>
+                <p><b>Performers:</b>  Ray Quinn, Natasha Barrie (guest stars). The MGA Academy of around 200 singers, dancers, actors from the Junior School, Stage Academies, Diploma Students and Graduates.  </p>
+                <p><b>Running time:</b>  165mins </p>
+            </div>
+        </div>
+        <p>The MGA Academy of Performing Arts in Edinburgh was founded by Murray Grant and Andrew Gowland in 2005, developing from small-scale workshops into a renowned College and “Centre of Excellence”, to study for a professional career in musical theatre, dance and drama. </p>
+        <p>TEN, illustrated by the Roman numeral X (like the X Factor logo), is a dazzling, dynamic show and celebrates the range of theatre productions which have been performed by the MGA Academy across city theatres over the past decade. </p>
+        <p>The star guest is Ray Quinn, runner up to Leona Lewis in X Factor who went on to perform in Grease and Dirty Dancing in the West End and is now recording his first album. As the MC, he gave a brief overview promising tap dancing, the splits and jazz hands, before introducing the junior school (aged 8 – 14) with their chorus of "Hushabye Mountain" from “Chitty Chitty Bang Bang”. </p>
+        <p>Then the Diploma students kick off with a rousing rendition of Bernstein’s “New York, New York” from "On the Town". With the blast of a steam ship’s horn, the stage is filled with dozens of sailors and streetwise guys and gals in varied costumes from 40s’ fashion to modern “I heart NY” T- shirts: American accents are spot on, the dancing is slick and characterisation is crisp and cool with sassy performances in particular from Hannah Collins and Keziah Grace.</p>
+        <p>This sense of confidence and high standard of theatricality flows on, from Jazz Age flair, a Glee Club medley and Hip Hop rhythm to a tap dancing routine. Impressive ensembles, with perhaps a hundred students, are seamlessly co-ordinated with meticulous dance steps creatively choreographed with pace and precision.</p>
+        <p>The highlights from a packed programme include “Off with their Heads” featuring Caitlin Tipping in her glamorous red frock leading a Tiller Girls line up in white top hat and tails. From the musical Carousel, Georgia Fordyce and Ross Evans glide effortlessly in their beautiful, romantic pas de deux with delicate grace. </p>
+        <p>2015 graduate, Natasha Barrie sings Des’ree’s ballad, “I’m Kissing You” from Romeo and Juliet, to which Nadia Kramer and Sonny Grieveson encapsulate the tragic fate of the lovers through mime and movement. And there's an hilarious episode from "The Producers" featuring the dancers in khaki shirts with swastika arm bands in “Hitler in Springtime”. </p>
+        <p>What is amazing is the supersonic speed of costume changes as this vast cast of performers dash off into the wings, re-appearing a few minutes later, beautifully dressed for the next number. The artistic direction is inventve, taking over the theatre, such as singers crammed into the Boxes at times to complement action on stage. </p>
+        <p>Ray Quinn, well known for his masterly Michael Buble crooner style, has his own star turn with a charming version of “Mr Bojangles”. </p>
+        <p>In such an ambitious show, not surprising to see a few first night problems with the follow spot and the presenters need to tighten up the script and comic timing. But this is a minor quibble in an otherwise highly polished, professional and inspiring showcase. Congratulations are due to the fabulous cast as well as to the entire production team of choreogaphers, creative, lighting & musical directors. </p>
+        <p>Forget Noel Coward’s advice in his song, “Don’t put your daughter on the stage, Mrs Worthington.” The passion, enthusiasm, energy and the pure joy of performance by these young students proudly illustrates the all-round musical theatre talent which is encouraged and nurtured at the MGA Academy of Performing Arts. 10/10 for TEN!. </p>
+        <p><i>Thursday 23 - Saturday 25 June, 2016 <br/>Evenings, 7.30pm. Saturday matinee, 2.30pm</i></p>
+
+
+    </div>),
+}
+const accessAllAreasOnKEllis = {
+    display:false,
+    cls:'accessAllAreasOnKEllis',
+    title:'Young Edinburgh actors have Wicked time with Kerry Ellis',
+    subtitle:'Aspiring local stage stars from The MGA Academy of Performing Arts in Edinburgh have taken part in a masterclass with one of musical theatre’s biggest icons.',
+    author:'Dan Willson',
+    source:'AccessAllAreas',
+    date:null,
+    link:'http://www.aaaedinburgh.co.uk/young-edinburgh-actors-have-wicked-time-with-kerry-ellis/',
+    img:{
+        path:'accessAllAreasOnKEllis.jpg',
+        caption:''
+    },
+    text:(<div className="article__text">
+
+        <p>Kerry Ellis, famous for appearing in shows such as Wicked, Cats and We Will Rock You on Broadway and in London’s West End, travelled to Edinburgh to mentor the next generation of stage professionals during a workshop organised by Beyond Broadway Productions.</p>
+        <p>Eighteen-year-old Sarah Dickson, a former pupil of Portobello High School who is now studying HND Musical Theatre at The MGA Academy, said: “I’m a huge fan of Kerry Ellis so it was amazing to have the opportunity to perform for her and get some advice on how I can improve. She talked to us about how important it is to choose the right songs for auditions and gave us some recommendations, which was really helpful.”</p>
+        <p>Ashley Sutherland, who attended Craigmount High School before enrolling at The MGA Academy, added: “I loved taking part in the masterclass as Kerry was so lovely and gave us all great feedback. I decided to sing The Fire Within Me from Little Women for her as I want to sing it at auditions so thought it would be a great opportunity to get some advice from her about it.”</p>
+        <p>The 19-year-old, who has loved performing since she was four years old, continued: “When I finish my training, I’d like to start auditioning for shows in London’s West End. Working with Kerry and hearing about her success has inspired me to really go for it.”</p>
+        <p>Ellis herself said: “Working with aspiring professional performers is so rewarding for me. I was so impressed with the talent and willingness of The MGA Academy students to get up and perform for me. I loved how enthusiastic and eager to learn they all were.”</p>
+        <p>Murray Grant, Creative Director of Beyond Broadway Productions, said: “We’ve been working to bring stars like Kerry Ellis, Shoshana Bean and Scott Alan to work with up-and-coming performers for the last ten years. Workshops like these give performers the chance to both work alongside, and gain feedback from, some of the biggest names in the industry.”</p>
+        <p>The MGA Academy was founded ten years ago, providing a platform for Scottish talent in performing arts to remain in Scotland to obtain accredited SQA training at an equivalent level offered by established London colleges. West End star Fergal McGoff (Mamma Mia, The Bodyguard) and Rebecca Stenhouse (Legally Blonde, Rock of Ages) represent just a couple of success stories from The MGA Academy.</p>
+        <p>Andrew Gowland, Managing Director of The MGA Academy of Performing Arts, said: “Many of our students go on to secure roles in London’s West End and beyond and workshops like these help prepare them for that.”</p>
+        <p>On October 24, students from The MGA Academy will have the opportunity to share the stage with renowned New York theatre composer Jonathan Reid Gealt at a one-off concert in Edinburgh.</p>
+
+    </div>),
+}
 
 let articles = [
     scotsmanOnMGAAcademy,
     edinburghReporterOnTheCoreLaunch,
     stagenOnMGAFundation,
     dublinLiveOnMurrayChoreographer,
+    edinburghGuideOnTen,
+    AEonFreeCourse,
+    accessAllAreasOnKEllis,
+
 ];
 const articlesFeatured = articles.filter(article => article.display);
 const articlesOther = articles.filter(article => !article.display);

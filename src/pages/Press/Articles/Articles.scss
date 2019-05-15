@@ -91,6 +91,9 @@ article.open{
         display: block;
         @include anim(slideArrIn, .5s , .5s, ease-out);
     }
+    .btn{
+        display: none;
+    }
 }
 .article__img_caption{
     color: #fff;
@@ -105,6 +108,10 @@ article.open{
 }
 .article__title{
     font-size: 2.8rem;
+    small{
+        // font-size: 1.6rem;
+
+    }
 }
 .article__subtitle{
     font-size: 1.8rem;
@@ -155,5 +162,79 @@ article.open{
 .edinburghReporterOnTheCoreLaunch{
     .article__img{
         background-position: right top;
+    }
+}
+.article__box{
+    border: solid .1rem $color_black_1;
+    padding: 2rem 4rem;
+    margin: 2rem 0 3rem;
+    font-size: 1.2rem;
+    p{
+        margin: .5rem 0;
+    }
+}
+.article__box_title{
+    background: #FFFFFF;
+    padding: 1rem 2rem;
+    left: 2rem;
+    top: -1.7rem;
+    position: absolute;
+}
+
+.Articles_others{
+    display:grid;
+    // grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 2rem;
+    article{
+        margin: 0;
+    }
+    .article__img{
+        display: none;
+    }
+    .article__heading{
+        width: 100%;
+        left: 0;
+        top: 0;
+        transition: 0s;
+        transform: scale(.8);
+        padding: 0 2rem;
+    }
+    article:nth-child(even) {
+        .article__heading{
+            transition: 0s;
+        }
+    }
+    article.open{
+        grid-column: 1/4;
+        grid-row: 1;
+        margin: 4rem 0;
+        .article__img{
+            display: block;
+            transition: none;
+        }
+        .article__heading{
+            width: 50%;
+            transition: 0s;
+            transform: scale(1);
+            padding: 5rem 8rem;
+        }
+    }
+    // article.open:nth-child(odd) {
+    //     grid-column: span 2;
+    //
+    // }
+    // article.open:nth-child(even) {
+    //     grid-column: 1 span 2;
+    // }
+}
+
+//=============================
+//     customised articles
+//=============================
+.edinburghGuideOnTen.open{
+    .article__img{
+        background-position: top;
     }
 }
