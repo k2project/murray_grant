@@ -40,12 +40,23 @@ const chrisStapelberg = {
     },
     text:'SA Dance Talent hosts various qualifiers for international dance competitions in South Africa every year, and over the past 8 years we have invited various international choreographers and judges from all over the world to be on our judging panels. Murray Grant joined us in 2018 on the DanceStar South Africa qualifiers judging panel and has truly been one of our favourite judges over the past years. Judging two qualifiers with over 1800 routines for 11 days, Murray was professional all the time scoring each routine fairly and writing valuable feedback for each dance. Murray was the entire time courteous, warm and friendly and freely sharing he’s valuable knowledge of dance with all the South African dancers, teachers and staff. After the two week event I realised that Murray does all of this because he has an immense passion for dance and loves sharing this passion with dancers from all over the world. We would be honoured to have Murray anytime back in South Africa.'
 }
+const christinaBianco = {
+    name:'Christina Bianco',
+    title:'Singer ',
+    link:'https://www.christinabianco.com/',
+    country:{
+        name:'USA',
+        flag:'usa.png'
+    },
+    text:'Murray is a human Swiss Army knife for the performing arts! His ability to navigate the international acts scene, in all it’s facets, is unmatched.'
+}
 
 let endorsements = [
-    natalieWeiss,
-    markLethem,
-    chrisStapelberg,
+    christinaBianco,
     sarahMilne,
+    chrisStapelberg,
+    markLethem,
+    natalieWeiss,
 
 
 ];
