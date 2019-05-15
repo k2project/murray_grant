@@ -4,6 +4,7 @@ import './Masterclasses.scss';
 import Page from './../../components/Page/Page';
 import PreviousClasses from './PreviousClasses/PreviousClasses';
 import map from './../../media/imgs/map.png';
+import eMap from './../../media/imgs/eMap.png';
 
 const topContent = {
     title:'Masterclasses',
@@ -90,7 +91,7 @@ function Map(){
     })
     return(
         <div className="Map">
-            <img src={map} alt="world map"/>
+            <img src={eMap} alt="world map"/>
             <div className="Map__location">
                 <div className="Map__circles">
                     <span></span>
