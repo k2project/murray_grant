@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6786722b47a3aecb6be65d651958caa9",
-    "url": "/murray_grant/static/media/murrayfield.6786722b.png"
+    "revision": "cbf969fb70d858c0d7253a5aaae50969",
+    "url": "/murray_grant/static/media/mibs.cbf969fb.png"
   },
   {
-    "revision": "deba6dd947c3269e6548",
-    "url": "/murray_grant/static/css/main.f6bbabac.chunk.css"
+    "revision": "b13517ccc0f780e558cb",
+    "url": "/murray_grant/static/css/main.66aec688.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
@@ -84,6 +84,14 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/danceStar.34481dd8.png"
   },
   {
+    "revision": "300e5b43211a31898fa196a6d778d749",
+    "url": "/murray_grant/static/media/dancebase.300e5b43.jpg"
+  },
+  {
+    "revision": "3fad0b54f88380f4c4330f43b0a4878f",
+    "url": "/murray_grant/static/media/dancebase.3fad0b54.png"
+  },
+  {
     "revision": "3cd917c800dbe362d28a27ca09f3d09c",
     "url": "/murray_grant/static/media/deutscheBank.3cd917c8.png"
   },
@@ -108,12 +116,32 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/fts_white.7b332987.png"
   },
   {
+    "revision": "376333e06befb865fc9daab4ab2fa1c1",
+    "url": "/murray_grant/static/media/gislavedsGymnasium.376333e0.jpg"
+  },
+  {
+    "revision": "c29f8dc461d987d201fdbf88d0ac063e",
+    "url": "/murray_grant/static/media/gislavedsGymnasium.c29f8dc4.png"
+  },
+  {
     "revision": "317a3f7d0cfb2328eafdb3b41dc045f6",
     "url": "/murray_grant/static/media/gleneagelsHotel.317a3f7d.png"
   },
   {
     "revision": "cdc9a24acf9047cf985b3819dcf4c3ce",
     "url": "/murray_grant/static/media/hammond.cdc9a24a.png"
+  },
+  {
+    "revision": "7f0e89a8bf2cd21cc01bbdcf9cc050cc",
+    "url": "/murray_grant/static/media/harnosands.7f0e89a8.jpg"
+  },
+  {
+    "revision": "63a809ee44172b5130c758e39a571bc0",
+    "url": "/murray_grant/static/media/harnosands.63a809ee.png"
+  },
+  {
+    "revision": "ab77e41d37d22a85b38dd59d104dce0f",
+    "url": "/murray_grant/static/media/hfs.ab77e41d.jpg"
   },
   {
     "revision": "b8e1c29fb5b5d7c9a9b03eeddd829035",
@@ -176,8 +204,8 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mibs.afa41fb8.jpg"
   },
   {
-    "revision": "cbf969fb70d858c0d7253a5aaae50969",
-    "url": "/murray_grant/static/media/mibs.cbf969fb.png"
+    "revision": "b13517ccc0f780e558cb",
+    "url": "/murray_grant/static/js/main.136a7a64.chunk.js"
   },
   {
     "revision": "1d9f820ca707ce31138c0ac38322c8ef",
@@ -192,8 +220,8 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/montpeliers.3dbe0da0.png"
   },
   {
-    "revision": "deba6dd947c3269e6548",
-    "url": "/murray_grant/static/js/main.62b5d486.chunk.js"
+    "revision": "6786722b47a3aecb6be65d651958caa9",
+    "url": "/murray_grant/static/media/murrayfield.6786722b.png"
   },
   {
     "revision": "43842974393c732a950cc2719acb53c2",
@@ -380,7 +408,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mail_blk.e8edcc69.png"
   },
   {
-    "revision": "709eb8631d6e577b599752bbf84e6df0",
+    "revision": "2f5d26c81f4d686799782a3f161a771b",
     "url": "/murray_grant/index.html"
   }
 ];
