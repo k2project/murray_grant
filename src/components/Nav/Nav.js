@@ -20,7 +20,7 @@ export default function Page (props){
         <div className="Nav">
             <section>
                 <div className="Nav__brand">
-                    <h1 className="font_themed">Murray Grant</h1>
+                    <h1 className="font_themed color_themed">Murray Grant</h1>
                 </div>
                 <div className="Nav__pages">
                     <NavLink to="/" exact >Home</NavLink>

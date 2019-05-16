@@ -6,13 +6,16 @@
     align-content: center;
     padding: 10rem 0 0;
     transition: 1.5s cubic-bezier(.17,.67,.45,1.29);
-    // background-image: url('./../../../media/bgs/grey.jpg');
+    // background-image: url('./../../../media/bgs/black.jpg');
+    background-position: center;
     margin-bottom: 0;
     .cover{
-        background: rgba($color_black_1, .9)
+        background: rgba($color_black_1, .8)
     }
     //anim for iOs
     h1{
+        color: #000;
+        color: $color_theme;
         font-weight: 500;
         font-size: 3.5rem;
         margin-bottom: .7rem;

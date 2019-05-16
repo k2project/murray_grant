@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './PreviousClasses.scss';
-import {classes} from './../../../api/classes';
+import {classes} from './../../../api/masterclasses';
 
 export default function PreviousClasses(){
 
