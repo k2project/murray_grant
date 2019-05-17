@@ -596,6 +596,7 @@ const citiesArr3=[
     Dundee,
     Nicosia,
     Klagenfurt,
+    Newcastle,
 ];
 const cities= [
     citiesArr1,

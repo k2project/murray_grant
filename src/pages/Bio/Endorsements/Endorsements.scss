@@ -46,6 +46,8 @@ font-size: 1.3rem;
 .Endorsements__quotes{
     column-count: 3;
     column-gap: 0;
+    width: 110rem;
+    margin: auto;
 
 }
 .quote{
@@ -55,7 +57,10 @@ font-size: 1.3rem;
     // left: 5rem;
     // width: 95%;
     margin:0 1rem 2rem;
-    display: inline-block;
+    //to stop breaking quotes
+    display: inline-grid;
+    align-content: center;
+    height: 35rem;
 
 }
 .quote__text{
@@ -73,4 +78,13 @@ font-size: 1.3rem;
 
     position: absolute;
 
+}
+.quote:nth-child(1){
+    height: 30rem;
+}
+.quote:nth-child(2){
+    height: 40rem;
+}
+.quote:nth-child(3){
+    height: 72rem;
 }

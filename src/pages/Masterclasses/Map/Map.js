@@ -15,8 +15,6 @@ allCities = allCities.sort();
 let half = allCities.length/2+1;
 let citiesLft = allCities.splice(0,half);
 let citiesRgt = allCities;
-console.log(citiesLft)
-console.log(citiesRgt)
 
 export default function Map(){
     useEffect(()=>{
@@ -52,10 +50,10 @@ function runLocations(parentEl,cities){
             parentEl.append(location);
             setTimeout(()=>{
                 animateLocation(location, city);
-            }, index*t+(i*500));
+            }, index*t+(i*600));
             setTimeout(()=>{
                 removeLocation(location);
-            },index*t+(i*500)+t)
+            },index*t+(i*600)+t)
         })
     })
 

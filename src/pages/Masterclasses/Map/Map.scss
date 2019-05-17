@@ -28,14 +28,14 @@
     overflow: hidden;
     text-align: left;
     top: -2rem;
-    padding: 0 1.5rem;
+    padding: 0 4rem 0 1.5rem;
     p{
         line-height: 1;
         color: $color_theme;
         // position: absolute;
         // top: -2rem;
         opacity: 0;
-        left: 2rem;
+        left: 4rem;
         transition: 2s ease-out;
     }
 }
@@ -66,7 +66,7 @@
         height: 3rem;
         background: rgba($color_theme,.2);
         opacity: 0;
-        animation: pulsing 1s ease-out;
+        animation: pulsing 1.2s ease-out;
 
     }
     span:nth-child(1){
@@ -76,7 +76,7 @@
         height: 5rem;
         background: rgba(255,255,255,.2);
         opacity: 0;
-        animation: pulsing .75s ease-out;
+        animation: pulsing 1s ease-out;
     }
 }
 @keyframes pulsingFirstSpan{
