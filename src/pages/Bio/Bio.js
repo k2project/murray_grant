@@ -1,21 +1,22 @@
 import React from 'react';
+import DocumentMeta from 'react-document-meta';
 import './Bio.scss';
+import {appPages} from './../../api/appData';
+
 import Page from './../../components/Page/Page';
 import About from './About/About';
 import Endorsements from './Endorsements/Endorsements';
 
-const bioTop={
-    title:'Get To Know Murray',
-    subtitle:'Background & Endorsements',
-    content:null
-}
+
 export default function Bio (){
     return(
-        <div className="Bio">
-            <Page data = {bioTop}>
-                <About/>
-                <Endorsements/>
-            </Page>
-        </div>
+            <DocumentMeta {...appPages.biography.meta}>
+                <div className="Bio">
+                    <Page data = {appPages.biography.topContent}>
+                        <About/>
+                        <Endorsements/>
+                    </Page>
+                </div>
+            </DocumentMeta>
     )
 }

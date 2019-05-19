@@ -9,6 +9,7 @@
     // background-image: url('./../../../media/bgs/black.jpg');
     background-position: center;
     margin-bottom: 0;
+    margin-top: 5rem;
     .cover{
         background: rgba($color_black_1, .8)
     }
@@ -52,5 +53,8 @@
             opacity: 1;
             letter-spacing: .4rem;
         }
+    }
+    img{
+        height: 3rem;
     }
 }

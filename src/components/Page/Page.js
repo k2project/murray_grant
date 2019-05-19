@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import { NavLink } from 'react-router-dom';
 import './Page.scss';
 import Nav from './../Nav/Nav';
 import Footer from './../Footer/Footer';
@@ -13,6 +14,7 @@ export default function Page(props){
         }
     });
     const {data} = props;
+    const cookies = localStorage.getItem("mg-app-cookies");
     return(
         <div className="Page">
             <Nav/>
@@ -27,6 +29,7 @@ export default function Page(props){
                     </section>
             </div>
             {props.children}
+            {!cookies && <CookiesDisclaimer/>}
             <Footer/>
         </div>
     )
@@ -112,4 +115,19 @@ function setVideoSounInSessionStorage(vid){
             return false;
         }
     }
+}
+
+function CookiesDisclaimer(){
+    return(
+        <div className="cookies__disclaimer">
+            <p>We use cookies on our website for functional and analytical purposes. If you continue to use our services, we will asume that you agree to the use of such cookies. Find out more about cookies and how you can refuse them <NavLink to="/cookies_policy" ><u>here</u></NavLink>.</p>
+            <div onClick={setCookiesStorage}> OK</div>
+        </div>
+
+    )
+}
+
+function setCookiesStorage(e){
+    localStorage.setItem("mg-app-cookies","accepted");
+    e.target.parentElement.remove();
 }

@@ -11,7 +11,7 @@ export default function Contact (){
             <div className="section__title">Contact</div>
             <div className="mail">murray@murraygrant.co.uk</div>
             <SocialMedia/>
-            <p>Jenny McLean : admin@murraygrant.co.uk / 0777 234 123 </p>
+            <p>Jenny McLean : admin@murraygrant.co.uk  </p>
             <p>Press Enquiries : press@murraygrant.co.uk</p>
         </div>
 

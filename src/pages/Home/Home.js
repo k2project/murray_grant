@@ -1,43 +1,34 @@
 import React, {useEffect} from 'react';
 import { NavLink } from 'react-router-dom';
 import {NavHashLink} from 'react-router-hash-link';
+import DocumentMeta from 'react-document-meta';
+
 import './Home.scss';
+import {appPages} from './../../api/appData';
 
-import Footer from './../../components/Footer/Footer';
+import Page from './../../components/Page/Page';
 import SocialMedia from './../../components/SocialMedia';
-
 import Top from './Top/Top';
 import CurrentProjects from './CurrentProjects/CurrentProjects';
 import PastProjects from './PastProjects/PastProjects';
 import Clients from './Clients/Clients';
 
-
-
-
 export default function Home (){
     useEffect(createSessionStorageForInitAnim);
     return(
-        <div className="Home">
-            <div className="Home__nav">
-                <div className="Home__nav_media">
-                    <SocialMedia/>
-                </div>
-                <div className="Home__nav_pages">
-                    <NavLink to="/biography" activeClassName="selected">Biography</NavLink>
-                    <NavHashLink to="/biography#endorsements" activeClassName="selected">Endorsements</NavHashLink>
-                    <NavLink to="/press" activeClassName="selected">Press</NavLink>
-                    <NavHashLink to="/press#contact" activeClassName="selected">Contact</NavHashLink>
-                </div>
-            </div>
-            <Top/>
-            <CurrentProjects />
-            <div className="Home__hidden">
-                <PastProjects/>
-                <Clients/>
-            </div>
+        <DocumentMeta {...appPages.home.meta}>
+            <div className="Home">
+                <Page data = {appPages.home.topContent}>
+                    <Top/>
+                    <CurrentProjects />
+                    <div className="Home__hidden">
+                        <PastProjects/>
+                        <Clients/>
+                    </div>
+                </Page>
 
-            <Footer/>
-        </div>
+            </div>
+        </DocumentMeta>
     )
 }
 

@@ -1,26 +1,23 @@
 import React from 'react';
 import {NavHashLink} from 'react-router-hash-link';
+import DocumentMeta from 'react-document-meta';
 import './Choreography.scss';
+import {appPages} from './../../api/appData';
+
 import Page from './../../components/Page/Page';
 
-const topContent = {
-    title:'Choreography Projects',
-    subtitle:'International Freelancer',
-    video:{
-        path:'video_choreography.mp4',
-        sound:true
-    },
-    content: (<div className="btn"><NavHashLink to="/press#contact">Enquire Now!</NavHashLink></div>),
-}
+
 export default function Choreography (){
 
     return(
-        <div className="Choreography">
-            <Page data = {topContent}>
-                <section>
+        <DocumentMeta {...appPages.choreography.meta}>
+            <div className="Choreography">
+                <Page data = {appPages.choreography.topContent}>
+                    <section>
 
-                </section>
-            </Page>
-        </div>
+                    </section>
+                </Page>
+            </div>
+        </DocumentMeta>
     )
 }

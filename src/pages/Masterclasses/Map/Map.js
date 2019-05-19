@@ -6,7 +6,7 @@ import eMap from './../../../media/imgs/eMap.png';
 import {cities} from './../../../api/masterclasses';
 
 //animation time for location appearance
-const t = 2500;
+const t = 2000;
 let allCities = [];
 cities.forEach(arr=>{
     arr.forEach(city=>allCities.push(city.name))
@@ -50,10 +50,10 @@ function runLocations(parentEl,cities){
             parentEl.append(location);
             setTimeout(()=>{
                 animateLocation(location, city);
-            }, index*t+(i*600));
+            }, index*t+(i*800));
             setTimeout(()=>{
                 removeLocation(location);
-            },index*t+(i*600)+t)
+            },index*t+(i*800)+t)
         })
     })
 

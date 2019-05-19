@@ -18,7 +18,7 @@ const sarahMilne = {
         name:'Cyprus',
         flag:'cyprus.png'
     },
-    text:'Murray has visited my Performing Arts school &quot;Cyprus Performing Arts&quot; in Nicosia on two occasions. Murray is a true professional with valuable industry knowledge. His choreography is amazing. He has a great repport with the students, he inspires and challenges everyone when he enters the building. I have already booked him to visit again next year and we all can\'t wait for his visit.'
+    text:'Murray has visited my Performing Arts school "Cyprus Performing Arts" in Nicosia on two occasions. Murray is a true professional with valuable industry knowledge. His choreography is amazing. He has a great repport with the students, he inspires and challenges everyone when he enters the building. I have already booked him to visit again next year and we all can\'t wait for his visit.'
 }
 const natalieWeiss = {
     name:'Natalie Weiss',
@@ -28,7 +28,7 @@ const natalieWeiss = {
         name:'USA',
         flag:'usa.png'
     },
-    text:'Murray produced/organized (you can change this wording) my entire European tour.  He is extremely efficient and detail-oriented during the booking process.  His budgeting and negotiating skills are unparalleled and you can always rely on him to respond in a timely manner.'
+    text:'Murray produced my entire European tour.  He is extremely efficient and detail-oriented during the booking process.  His budgeting and negotiating skills are unparalleled and you can always rely on him to respond in a timely manner.'
 }
 const chrisStapelberg = {
     name:'Chris Stapelberg',

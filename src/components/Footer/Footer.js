@@ -17,9 +17,10 @@ export default function Footer(){
                     <NavLink to="/biography" >Biography</NavLink>
                     <NavLink to="/choreography" >Choreography</NavLink>
                     <NavLink to="/masterclasses" >Masterclasses</NavLink>
-                    <NavHashLink to="/biography#endorsements" >Endorsements</NavHashLink>
-                    <NavLink to="/press" >Press</NavLink>
+                    {/* <NavHashLink to="/biography#endorsements" >Endorsements</NavHashLink>
+                    <NavLink to="/press" >Press</NavLink> */}
                     <NavHashLink to="/press#contact" >Contact</NavHashLink>
+                    {/* <NavLink to="/cookies_policy" >Cookies</NavLink> */}
                 </div>
              </div>
         </footer>
