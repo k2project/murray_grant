@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1d9f820ca707ce31138c0ac38322c8ef",
-    "url": "/murray_grant/static/media/montfort.1d9f820c.png"
+    "revision": "3dbe0da0768118aa04b7485e1e542a11",
+    "url": "/murray_grant/static/media/montpeliers.3dbe0da0.png"
   },
   {
-    "revision": "1789f7687fa7474e2950",
-    "url": "/murray_grant/static/css/main.0d3043a8.chunk.css"
+    "revision": "5537309be66ff12b4765",
+    "url": "/murray_grant/static/css/main.7167ea2c.chunk.css"
   },
   {
     "revision": "8b2f7d9a194e17c6ff80",
     "url": "/murray_grant/static/js/runtime~main.4d3a238e.js"
   },
   {
-    "revision": "9364a392237dcf98c138",
-    "url": "/murray_grant/static/js/2.eaf695f7.chunk.js"
+    "revision": "d1ca72417aaa3e344355",
+    "url": "/murray_grant/static/js/2.b5563334.chunk.js"
   },
   {
     "revision": "006bb237fb4f515c7f002231238e6561",
@@ -228,16 +228,16 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mibs.cbf969fb.png"
   },
   {
-    "revision": "1789f7687fa7474e2950",
-    "url": "/murray_grant/static/js/main.fa57ba10.chunk.js"
+    "revision": "1d9f820ca707ce31138c0ac38322c8ef",
+    "url": "/murray_grant/static/media/montfort.1d9f820c.png"
   },
   {
     "revision": "0ab702d1dec27258b3971e2f0fe0d3a9",
     "url": "/murray_grant/static/media/montfort2.0ab702d1.png"
   },
   {
-    "revision": "3dbe0da0768118aa04b7485e1e542a11",
-    "url": "/murray_grant/static/media/montpeliers.3dbe0da0.png"
+    "revision": "5537309be66ff12b4765",
+    "url": "/murray_grant/static/js/main.45e7e03a.chunk.js"
   },
   {
     "revision": "6786722b47a3aecb6be65d651958caa9",
@@ -444,6 +444,26 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/zannaDont.83988cfc.png"
   },
   {
+    "revision": "38d7a7cc92f2e95b229c3365e8a78a1d",
+    "url": "/murray_grant/static/media/android-chrome-512x512.38d7a7cc.png"
+  },
+  {
+    "revision": "04db132749d527d2fac6ea52a70c87d5",
+    "url": "/murray_grant/static/media/browserconfig.04db1327.xml"
+  },
+  {
+    "revision": "ebc688c1949df8fce98d38d1db539a0f",
+    "url": "/murray_grant/static/media/favicon.ebc688c1.ico"
+  },
+  {
+    "revision": "6d93802242bfac39a1b7f25ed9d450c3",
+    "url": "/murray_grant/static/media/safari-pinned-tab.6d938022.svg"
+  },
+  {
+    "revision": "4919379ac43429a891c35c209fd7073b",
+    "url": "/murray_grant/static/media/site.4919379a.webmanifest"
+  },
+  {
     "revision": "498a521dd2cfd8afe13ba638676a8988",
     "url": "/murray_grant/static/media/loader.498a521d.gif"
   },
@@ -452,7 +472,7 @@ self.__precacheManifest = [
     "url": "/murray_grant/static/media/mail_blk.e8edcc69.png"
   },
   {
-    "revision": "54c117c2ead2b8a1155ee7f7c5cae111",
+    "revision": "cab27f1d9ac35a140035a1e9ef5c5c85",
     "url": "/murray_grant/index.html"
   }
 ];
