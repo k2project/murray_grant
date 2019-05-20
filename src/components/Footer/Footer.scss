@@ -5,6 +5,7 @@ footer{
     // padding: 5rem 0;
     text-align: right;
     display: grid;
+    align-content: start;
     width: 90%;
     margin: 4rem auto 6rem;
     a{
@@ -19,4 +20,15 @@ footer{
         // padding: 0 5rem;
     }
 
+    .SocialMedia{
+        display: inline-block;
+        margin:0 1rem;
+        top: .2rem;
+        a{
+            padding: 0 .3rem;
+        }
+    }
+    img{
+        height: 1.4rem;
+    }
 }

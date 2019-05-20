@@ -9,10 +9,23 @@ export default function Contact (){
 
         <div className="Contact" id="contact">
             <div className="section__title">Contact</div>
-            <div className="mail">murray@murraygrant.co.uk</div>
+            <div className="Contact__body">
+                <div>For enquiries please contact <br/><b>Jenny McLean</b>:</div>
+                <div>
+                    contact@murraygrantofficial.com <br/>
+                    +44 (0) 330 0242941
+                </div>
+                <div>For media enquiries please contact <br/><b>Tailormade Media</b>:</div>
+                <div>
+                    Alex (alex@thisistailormade.com) <br/>
+                    Amy (amy@thisistailormade.com)
+                </div>
+                <div>To get in touch with Murray directly:</div>
+                <div>
+                    murray@murraygrantofficial.com
+                </div>
+            </div>
             <SocialMedia/>
-            <p>Jenny McLean : admin@murraygrant.co.uk  </p>
-            <p>Press Enquiries : press@murraygrant.co.uk</p>
         </div>
 
     )

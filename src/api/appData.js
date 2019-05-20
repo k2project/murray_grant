@@ -3,8 +3,8 @@ import {NavHashLink} from 'react-router-hash-link';
 
 
 const canonical = 'http://www.murraygrantofficial.com/';
-const description = '';
-const keywords = 'murray grant, international, choreography, masterclasses, mga, enterpreneur, creative';
+const description = 'Murray Grant is a creative entrepreneur with businesses ranging from training, corporate, production, agency, choreography and consulting in and around the UK and international market.';
+const keywords = 'murray grant, international, choreography, masterclasses, mga, enterpreneur, creative,training, corporate, consulting';
 
 const home = {
     meta : {
@@ -77,7 +77,7 @@ const cookies = {
 const masterclasses = {
     meta : {
         title: "Murry Grant | Masterclasses",
-        description,
+        description:'Murray Grant has been offering masterclasses across the UK, Europe and Worldwide over the last 10 years, specialising in Jazz Technique, Musical Theatre Dance/Performance and Audition Technique. These masterclasses are aimed at students from the ages of 14+ ',
         canonical,
         meta: {
             name: {
@@ -98,7 +98,7 @@ const masterclasses = {
 const choreography = {
     meta : {
         title: "Murry Grant | International Freelance Choreographer",
-        description,
+        description:'Murray Grant has been working as an international choreographer over the last 10 years, directing and choreographing cruise ship productions, International tours, European tours alongside corporate entertainment for some of the largest brands in the world. Murray specialises in Musical Theatre and Jazz styles.',
         canonical,
         meta: {
             name: {
