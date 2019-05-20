@@ -91,7 +91,6 @@ function muteVideoOnScroll(){
     const vid = document.getElementById("page-video");
     const pageTop = document.querySelector('.Page__top');
     const vidBottom = pageTop.getBoundingClientRect().bottom;
-    console.log(vidBottom)
     if(vidBottom < -50){
         vid.muted = true;
     }else{

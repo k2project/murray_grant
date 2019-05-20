@@ -9,7 +9,7 @@ import Masterclasses from './pages/Masterclasses/Masterclasses';
 import Choreography from './pages/Choreography/Choreography';
 import Cookies from './pages/Cookies/Cookies';
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 //Google Anlitics: pages viewed
 import Analytics from 'react-router-ga';
 
@@ -25,6 +25,7 @@ class App extends Component {
                     <Route exact path='/masterclasses' component={Masterclasses}/>
                     <Route exact path='/choreography' component={Choreography}/>
                     <Route exact path='/cookies_policy' component={Cookies}/>
+                    <Redirect from='*' to='/' />
                 </Switch>
             {/* </Analytics> */}
        </BrowserRouter>
