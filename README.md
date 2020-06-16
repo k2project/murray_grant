@@ -22,4 +22,4 @@ Murry's website features HTML5 Video backgrounds and multiple swipeable carousel
 
 # Demo
 
-Website available [here](https://www.marc-mcbride.com).
+Website available [here](https://www.murraygrantofficial.com).
